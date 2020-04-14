@@ -1,0 +1,40 @@
+.divDestaque{
+    background:#C1DFF0;
+    padding-top:50px;
+}
+
+.mapaCidade{
+    /* display: flex; */
+    position:relative;
+}
+.mapSvg{
+    width:100%;
+}
+.destaqueTexto{
+    width:50%;
+    margin-top:-60%;
+    margin-left:60%;
+    position: absolute;
+    font-size:1.5vw;
+}
+/* Cidades */
+
+.destaqueTexto .cidadeAtivada{
+    display: block;
+    animation: fadeIn 2s;
+}
+
+.destaqueTexto .cidadeDesativada{
+    display:none;
+}
+
+@keyframes fadeIn{
+    from{   
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
+}

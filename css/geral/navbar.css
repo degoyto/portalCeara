@@ -1,0 +1,17 @@
+.barra-cima{
+    position:fixed;
+    z-index:100000;
+    background-color: white;
+    width: 100%;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #212121;
+    
+}
+.nav-item{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-family:"bign";
+}

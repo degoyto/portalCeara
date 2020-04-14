@@ -1,0 +1,123 @@
+
+
+@font-face {
+    font-family: bign;
+    src: url('../../font/bign.ttf');
+}
+
+
+.carousel-item{
+    height:100vh;
+    width:100vw;
+    background-size: cover;
+    
+}
+.active h1 img{
+    animation: fadeIn 3s;
+}
+
+.carousel-item h1{
+    font-size: 100px;
+}
+.ci-1{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/aaaa.jpg?alt=media&token=107decb9-a0b6-4ee1-a992-1692d80845b0');
+
+}
+.ci-2{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/terrra.jpg?alt=media&token=4c8dc88f-ec5b-421e-9bb3-fb705f682866');
+
+}
+.ci-3{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/teatro.jpg?alt=media&token=8a41cc93-2785-4f55-a8a0-d46b5552faec');
+
+}
+.ci-4{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/historia.jpg?alt=media&token=9a6fa7ab-62bc-414b-b11f-e89fccd73515');
+
+}
+.ci-5{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/artesanato.jpg?alt=media&token=3f970d83-0366-468e-97b0-d749f75b37ab');
+
+}
+.ci-6{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/cult.jpg?alt=media&token=f881ae42-489f-496a-ad0a-eed1e4ed51ac');
+
+}
+.ci-7{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/capa.jpg?alt=media&token=1183aff7-91d3-48ea-9bdf-852f313049c2');
+
+}
+
+.titulo{
+    height:100vh;
+    width:100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.titulo h1{
+    font-family: 'bign';
+    font-weight: 500;
+    font-size:20vw;
+    
+}
+.titulo img{
+    width:50%;
+}
+.nav-item {
+    color: rgba(0,0,0,1);
+    text-transform: uppercase;
+    font-family:"bign"
+}
+@keyframes fadeIn{
+    from{   
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+
+
+#carouselBeadManRedding {
+    background-color: #000;
+}
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out 1.7s;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+.carousel.carousel-fade .carousel-item:first-child {
+    top: auto;
+    position: relative;
+    transition: opacity ease-out 1.7s;
+}
+.carousel.carousel-fade .carousel-item:second-child {
+    top: auto;
+    position: relative;
+    transition: opacity ease-out 1.7s;
+}
+/* .carousel-item .img-fluid {
+    margin: 0 auto;
+} */
+/* .carousel img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+} */
+.active h1{
+    animation: fadeIn 3s;
+}
+.active img{
+    animation: fadeIn 3s;
+}
