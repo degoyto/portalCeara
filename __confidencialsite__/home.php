@@ -43,7 +43,7 @@
         <?php include("componente/PaginaInicial/capa.html") ?>
         <?php include("componente/PaginaInicial/missao.html") ?>
         <?php include("componente/PaginaInicial/junte.html") ?>
-        <?php include("componente/PaginaInicial/ceara.html") ?>
+        <?php include("componente/PaginaInicial/ceara.php") ?>
         <?php include("componente/PaginaInicial/cidadesDestaque.php") ?>
         
     </body>

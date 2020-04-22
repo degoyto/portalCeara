@@ -1,11 +1,16 @@
 .imgMapa{
     margin-top:20px;
 }
-.imgMapa img{
+.imgMapa {
     width:100%;
 }
 .textoCeara{
-    width:40%;
-    margin-left:30px;
-    margin-top:200px;
+    width:80%;
+    margin-left:-50px;
+    margin-top:10%;
+}
+.textoCeara img{
+    width:50%;
+    margin-left:-35%;
+    margin-top:10%;
 }

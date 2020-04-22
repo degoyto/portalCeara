@@ -33,7 +33,13 @@
     
     
     <body>
-        <h1>FORTALEZA</h1>
+        
+        <?php 
+        $linkMunicipio = "componente/cidades/$URL[1].php";
+        
+            include($linkMunicipio);
+        
+        ?>
         
     </body>
     

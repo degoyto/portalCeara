@@ -17,9 +17,6 @@
     if(file_exists('__confidencialsite__/'.$URL[0].".php")){
         
         require ('__confidencialsite__/'.$URL[0].".php");
-        
-        
-        
     }
     elseif (is_dir('__confidencialsite__/'.$URL[0])) {
         if($URL[0]=='api' or $URL[0]=='assets' or $URL[0]=='componente' or $URL[0]=='css'){
