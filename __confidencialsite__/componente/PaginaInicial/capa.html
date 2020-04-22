@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<div class="container-flex" id="inicio">
-    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+<div class="container-flex" id="inicio" >
+    <div id="myCarousel" class="carousel slide " data-ride="carousel" data-interval="2000">
         
         <div id="carouselBeadManRedding" class="carousel carousel-fade">
             
@@ -18,18 +18,10 @@
 
                 
                
-                <div class="carousel-item ci-2">
+                <!-- <div class="carousel-item ci-2">
                     <div class="titulo">
                         <h1> 
                             TERRA
-                        </h1>
-                    </div>
-                    
-                </div>
-                <div class="carousel-item ci-3">
-                    <div class="titulo">
-                        <h1> 
-                            CULTURA
                         </h1>
                     </div>
                     
@@ -38,6 +30,14 @@
                     <div class="titulo">
                         <h1> 
                             HISTÓRIA
+                        </h1>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item ci-3">
+                    <div class="titulo">
+                        <h1> 
+                            CULTURA
                         </h1>
                     </div>
                     
@@ -57,15 +57,8 @@
                         </h1>
                     </div>
                     
-                </div>
-                <div class="carousel-item ci-7">
-                    <div class="titulo">
-                        <h1> 
-                            NOTÍCIAS
-                        </h1>
-                    </div>
-                    
-                </div>
+                </div> -->
+                
 
                 <div class="carousel-item ci-7">
                     <div class="titulo">
@@ -74,7 +67,7 @@
                     </div>
                     
                 </div>
-                <div class="carousel-item ci-7">
+                <div id="ultimoSlide" class="carousel-item ci-7" >
                     <div class="titulo">
                         <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/LOGO.png?alt=media&token=d26b2a6c-34c4-4f84-a0db-422cd9aed521">
                         
@@ -86,3 +79,15 @@
         </div>
         
       </div>
+<script>
+    teste();
+    var classeTexto
+  function teste(){
+      
+      console.log(document.getElementById("ultimoSlide").classList);
+      
+      console.log("teste");
+  }
+  
+
+</script>

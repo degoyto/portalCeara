@@ -8,7 +8,7 @@
     font-weight: 600;
 }
 .conteudo{
-    display: flex;
+   margin-top:100%;
     padding-bottom:50px;
     
 }
@@ -24,4 +24,14 @@
     font-size:1.5vw;
     width:50%;
     margin-top:50px;
+}
+.textoMissao2{
+    display: flex;
+}
+.textoMissao2 p{
+    width:50%;
+    font-size:1.5vw;
+}
+.imagemLogo2{
+    width:50%;
 }
