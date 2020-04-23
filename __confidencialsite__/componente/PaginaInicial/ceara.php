@@ -1,5 +1,5 @@
-<div class="divMissao container-flex" id="ceara">
-    <h1>Ceará</h1>
+<div class="divMissao cearadiv container-flex" id="ceara">
+    <h1>O Ceará</h1>
     <div class="conteudo container">
         <div class="imagemLogo imgMapa">
             <?php include("mapaCeara/mapaCeara.php") ?>

@@ -10,6 +10,9 @@
 .mapSvg{
     width:80%;
 }
+.mapSvg svg{
+    width:80%;
+}
 .destaqueTexto{
     width:50%;
     margin-top:-60%;
@@ -17,8 +20,15 @@
     position: absolute;
     font-size:1.5vw;
 }
-/* Cidades */
 
+/* Cidades */
+.cidadeAtivada{
+    overflow-x:hidden;
+    overflow-y:visible;
+    height:500px;
+    margin-top:8%;
+    padding-right:2%;
+}
 .destaqueTexto .cidadeAtivada{
     display: block;
     animation: fadeIn 2s;
