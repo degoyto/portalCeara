@@ -1,7 +1,7 @@
 .barra-cima{
     position:fixed;
     z-index:100000;
-    background-color: white;
+    
     width: 100%;
     
 }
@@ -20,6 +20,10 @@
     display: flex;
     
 }
-
+.imgLogoBar{
+    width:30%;
+   
+    
+}
 
 

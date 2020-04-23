@@ -5,7 +5,15 @@
     src: url('../../font/bign.ttf');
 }
 
-
+.textosCapa{
+    position:absolute;
+    z-index:100;
+    align-items: center;
+    text-align: center;
+    padding-top:5%;
+    height:100vh;
+    width:100%;
+}
 .carousel-item{
     height:100vh;
     width:100vw;
@@ -108,13 +116,13 @@
     position: relative;
     transition: opacity ease-out 1s;
 } 
-.carousel-item .img-fluid {
+/* .carousel-item .img-fluid {
     margin: 0 auto;
 } 
  .carousel img {
     opacity: 0.5;
     filter: alpha(opacity=50);
-} 
+}  */
 /* .active h1{
     animation: fadeIn 3s;
 }
