@@ -13,7 +13,7 @@
     
 }
 .active h1 img{
-    animation: fadeIn 3s;
+    /* animation: fadeIn 3s; */
 }
 
 .carousel-item h1{
@@ -90,7 +90,7 @@
 .carousel.carousel-fade .carousel-item {
     display: block;
     opacity: 0;
-    transition: opacity ease-out 1.7s;
+    transition: opacity ease-out 1s;
     left: 0;
     top: 0;
     position: absolute;
@@ -101,23 +101,23 @@
 .carousel.carousel-fade .carousel-item:first-child {
     top: auto;
     position: relative;
-    transition: opacity ease-out 1.7s;
+    transition: opacity ease-out 2s;
 }
 .carousel.carousel-fade .carousel-item:second-child {
     top: auto;
     position: relative;
-    transition: opacity ease-out 1.7s;
-}
-/* .carousel-item .img-fluid {
+    transition: opacity ease-out 1s;
+} 
+.carousel-item .img-fluid {
     margin: 0 auto;
-} */
-/* .carousel img {
+} 
+ .carousel img {
     opacity: 0.5;
     filter: alpha(opacity=50);
-} */
-.active h1{
+} 
+/* .active h1{
     animation: fadeIn 3s;
 }
 .active img{
     animation: fadeIn 3s;
-}
+} */

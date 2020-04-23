@@ -8,10 +8,12 @@
     font-weight: 600;
 }
 .conteudo{
-   margin-top:100%;
+    display: flex;
+    
     padding-bottom:50px;
     
 }
+
 .imagemLogo{
     width: 50%;
     margin-top:-80px;
@@ -25,6 +27,8 @@
     width:50%;
     margin-top:50px;
 }
+
+/* Missao2.html */
 .textoMissao2{
     display: flex;
 }
@@ -34,4 +38,16 @@
 }
 .imagemLogo2{
     width:50%;
+    margin-top:15%;
+    margin-left:5%;
+}
+.imagemLogo2 img{
+    width:80%;
+}
+.conteudo2{
+    margin-top:5%;
+}
+.missao2{
+    padding-top:3%;
+    background:#EDD382;
 }
