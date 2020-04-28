@@ -1,6 +1,6 @@
 <?php 
-    include("api/principaisNoticias.php");
-    include("api/novasNoticias.php");
+    session_start();
+    include("api/verifica_login.php")
 
 
 
@@ -12,9 +12,9 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title>Fortaleza - O Portal do Ceará </title>
+        <title>Painel - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
+        
         
         <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
@@ -33,13 +33,11 @@
     
     
     <body>
-        
-        <?php 
-        $linkMunicipio = "componente/cidades/$URL[1].php";
-        
-            include($linkMunicipio);
-        
-        ?>
+        <?php //include("componente/geral/navbar.html") ?>
+
+       <h1>Bem Vindo <?php echo $_SESSION['usuario']; ?></h1>
+        <a href="cadastro_cidade"> cadastro de cidades</a><br>
+        <a href="logout"> Sair</a>
         
     </body>
     

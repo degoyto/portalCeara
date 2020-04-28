@@ -1,7 +1,6 @@
 <?php 
-    include("api/principaisNoticias.php");
-    include("api/novasNoticias.php");
-
+    session_start();
+    include("api/verifica_login.php")
 
 
 
@@ -12,12 +11,21 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title>Fortaleza - O Portal do Ceará </title>
+        <title>Página Inicial - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/junte.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/ceara.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/mapaID.css"/>
         
         <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
+        <link type="text/css" rel="stylesheet" href="css/adm/bulma.min.css"/>
+        
+        
+        
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
 
@@ -33,13 +41,10 @@
     
     
     <body>
+        <?php //include("componente/geral/navbar.html") ?>
+        <?php include("componente/adm/cadastroCidadeComponente.php") ?>
+            
         
-        <?php 
-        $linkMunicipio = "componente/cidades/$URL[1].php";
-        
-            include($linkMunicipio);
-        
-        ?>
         
     </body>
     
