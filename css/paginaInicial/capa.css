@@ -13,12 +13,14 @@
     padding-top:5%;
     height:100vh;
     width:100%;
+    background-color: white;
 }
 .carousel-item{
     height:100vh;
     width:100vw;
     background-size: cover;
-    
+    background-color: white; 
+    align-items: center;
 }
 .active h1 img{
     /* animation: fadeIn 3s; */
@@ -130,3 +132,6 @@
 .active img{
     animation: fadeIn 3s;
 } */
+.fechaTudo{
+    display: none;
+}

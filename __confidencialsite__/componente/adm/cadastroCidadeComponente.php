@@ -41,7 +41,7 @@
 
                         <div class="form-group">
                             <label for="exampleInputNome1">Área em Km</label>
-                            <input name="area" type="number" class="form-control" id="exampleInputNome1" placeholder="Área em Km">
+                            <input name="area" type="number" step="any" class="form-control" id="exampleInputNome1" placeholder="Área em Km">
                             
                         </div>
                         
@@ -54,7 +54,7 @@
 
                         <div class="form-group">
                             <label for="exampleInputNome1">População</label>
-                            <input name="populacao" type="number" class="form-control" id="exampleInputNome1" placeholder="População">
+                            <input name="populacao" type="number" class="form-control" id="exampleInputNome1"  placeholder="População">
                             
                         </div>
                         <div class="form-group">

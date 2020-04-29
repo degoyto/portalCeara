@@ -1,97 +1,120 @@
 <!DOCTYPE html>
 <div class="container-flex" id="inicio" >
-    <div class="textosCapa">
-        <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/oportal.gif?alt=media&token=813852c3-0c32-4d1e-8583-cf93b718a04a"/>
-    </div>
-    <div id="myCarousel" class="carousel slide " data-ride="carousel" data-interval="2000">
+    <div id="textoCapa" class="textosCapa fechaTudo">
+        <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/gifLogo.gif?alt=media&token=b3c9f7c6-d820-4a44-90e2-b39f90e0d95b"/>
         
-        <div id="carouselBeadManRedding" class="carousel carousel-fade">
+        <!-- <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/oportal.gif?alt=media&token=813852c3-0c32-4d1e-8583-cf93b718a04a"/> -->
+    </div>
+    <div id="carousel" class="carousel" >
+        
+        <div id="carouselBeadManRedding" class="carousel">
             
             <div class="carousel-inner">
 
-                <div class="carousel-item active ci-1">
-                    <!-- <div class="titulo">
+                <div id="item1" class="carousel-item active ci-1">
+                    <div class="titulo">
                         <h1> 
                             GENTE
                         </h1>
-                    </div> -->
+                    </div> 
                     
                     
                 </div>
 
                 
                
-                <div class="carousel-item ci-2">
+                <div id="item2" class="carousel-item ci-2">
                     <div class="titulo">
-                        <!-- <h1> 
+                        <h1> 
                             TERRA
-                        </h1> -->
+                        </h1>
                     </div>
                     
                 </div>
-                <div class="carousel-item ci-4">
+                <div id="item3" class="carousel-item ci-4">
                     <div class="titulo">
-                        <!-- <h1> 
+                        <h1> 
                             HISTÓRIA
-                        </h1> -->
+                        </h1>
                     </div>
                     
                 </div>
-                <div class="carousel-item ci-3">
+                <div id="item4" class="carousel-item ci-3">
                     <div class="titulo">
-                        <!-- <h1> 
+                        <h1> 
                             CULTURA
-                        </h1> -->
+                        </h1>
                     </div>
                     
                 </div>
-                <div class="carousel-item ci-5">
+                <div id="item5" class="carousel-item ci-5">
                     <div class="titulo">
-                        <!-- <h1> 
+                        <h1> 
                             RAÍZES
-                        </h1> -->
+                        </h1>
                     </div>
                     
                 </div>
-                <div class="carousel-item ci-6">
+                <div id="item6" id="ultimoItem" class="carousel-item ci-6">
                     <div class="titulo">
-                        <!-- <h1> 
+                        <h1> 
                             TRADIÇÃO
-                        </h1> -->
+                        </h1>
                     </div>
                     
                 </div> 
-                
-
-                <div class="carousel-item ci-7">
-                    <!-- <div class="titulo">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/LogoPortal.svg?alt=media&token=d113b62f-7e02-4510-9a9f-583f5923d057">
-                        
-                    </div> -->
-                    
-                </div>
-                <div id="ultimoSlide" class="carousel-item ci-7" onload="teste()" >
-                    <!-- <div class="titulo">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/LOGO.png?alt=media&token=d26b2a6c-34c4-4f84-a0db-422cd9aed521">
-                        
-                    </div> -->
-                    
-                </div>
-                
+      
             </div>
         </div>
         
       </div>
 <script>
-    teste();
+    var atual = 1;
+    var gifAtivo = 0;
+    function fechaSlide(){
+        gifAtivo = 0;
+        setTimeout( function() {
+            document.getElementById("carousel").classList.add("fechaTudo");
+            document.getElementById("textoCapa").classList.remove("fechaTudo");
+            fechaGif();
+            
+
+        }, 12000 );
+    }
+
+    function fechaGif(){
+        gifAtivo = 1;
+        setTimeout( function() {
+            document.getElementById("item"+atual).classList.remove("active");
+            atual = 1;
+            document.getElementById("item"+atual).classList.add("active");
+           
+            document.getElementById("textoCapa").classList.add("fechaTudo");
+            document.getElementById("carousel").classList.remove("fechaTudo");
+            fechaSlide();
+            abreProximoSlide();
+        }, 9000 );
+    }
     
-    var classeTexto
-  function teste(){
-      
-      console.log(document.getElementById("ultimoSlide").classList);
-      
-      console.log("teste");
-  }
-  
+
+    function abreProximoSlide(){
+        setTimeout( function() {
+            document.getElementById("item"+atual).classList.remove("active");
+            atual++;
+            console.log(atual+" "+gifAtivo);
+            if (atual>6){
+                atual = 1;
+                gifAtivo = 1;
+            }
+            document.getElementById("item"+atual).classList.add("active");
+            if(gifAtivo == 0){
+                abreProximoSlide();
+            }
+            
+        }, 2000 );
+    }
+    
+    abreProximoSlide();
+    fechaSlide();
 
 </script>

@@ -1,6 +1,5 @@
 <?php 
-    include("api/principaisNoticias.php");
-    include("api/novasNoticias.php");
+    
 
 
 
@@ -21,6 +20,8 @@
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/mapaID.css"/>
         
+        <link rel="stylesheet" href="css/geral/gallery.theme.css">
+        <link rel="stylesheet" href="css/geral/gallery.min.css">
         <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
