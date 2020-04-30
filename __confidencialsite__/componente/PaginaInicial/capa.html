@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <div class="container-flex" id="inicio" >
     <div id="textoCapa" class="textosCapa fechaTudo">
-        <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/gifLogo.gif?alt=media&token=b3c9f7c6-d820-4a44-90e2-b39f90e0d95b"/>
+        <img id="gifLogo" src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/gifLogo.gif?alt=media&token=b3c9f7c6-d820-4a44-90e2-b39f90e0d95b"/>
         
         <!-- <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/oportal.gif?alt=media&token=813852c3-0c32-4d1e-8583-cf93b718a04a"/> -->
     </div>
@@ -47,7 +47,7 @@
                     </div>
                     
                 </div>
-                <div id="item5" class="carousel-item ci-5">
+                <div id="item5" class="carousel-item ci-6">
                     <div class="titulo">
                         <h1> 
                             RAÍZES
@@ -55,7 +55,7 @@
                     </div>
                     
                 </div>
-                <div id="item6" id="ultimoItem" class="carousel-item ci-6">
+                <div id="item6" id="ultimoItem" class="carousel-item ci-5">
                     <div class="titulo">
                         <h1> 
                             TRADIÇÃO
@@ -71,29 +71,35 @@
 <script>
     var atual = 1;
     var gifAtivo = 0;
-    function fechaSlide(){
-        gifAtivo = 0;
-        setTimeout( function() {
-            document.getElementById("carousel").classList.add("fechaTudo");
-            document.getElementById("textoCapa").classList.remove("fechaTudo");
-            fechaGif();
+
+    function abreGif(){
+        document.getElementById("gifLogo").src = ""
+        document.getElementById("gifLogo").src = "https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/gifLogo.gif?alt=media&token=b3c9f7c6-d820-4a44-90e2-b39f90e0d95b"
+        
+        
+        document.getElementById("textoCapa").classList.remove("fechaTudo");
+        fechaGif();
             
 
-        }, 12000 );
+        
     }
 
     function fechaGif(){
-        gifAtivo = 1;
+        
         setTimeout( function() {
+            gifAtivo = 0;
+            console.log("tempo acabou");
             document.getElementById("item"+atual).classList.remove("active");
             atual = 1;
             document.getElementById("item"+atual).classList.add("active");
-           
+            
             document.getElementById("textoCapa").classList.add("fechaTudo");
-            document.getElementById("carousel").classList.remove("fechaTudo");
-            fechaSlide();
+            
+            
             abreProximoSlide();
-        }, 9000 );
+        }, 8800 );
+
+        
     }
     
 
@@ -101,13 +107,17 @@
         setTimeout( function() {
             document.getElementById("item"+atual).classList.remove("active");
             atual++;
-            console.log(atual+" "+gifAtivo);
+            // console.log(atual+" "+gifAtivo);
             if (atual>6){
                 atual = 1;
                 gifAtivo = 1;
+                abreGif();
+                console.log("gif atual>6 "+gifAtivo)
             }
+            // console.log("depois do if "+atual+" "+gifAtivo);
             document.getElementById("item"+atual).classList.add("active");
             if(gifAtivo == 0){
+                
                 abreProximoSlide();
             }
             
@@ -115,6 +125,6 @@
     }
     
     abreProximoSlide();
-    fechaSlide();
+    
 
 </script>

@@ -15,8 +15,31 @@
     
 
     if(file_exists('__confidencialsite__/'.$URL[0].".php")){
+        if ($URL[0] == "municipios" && !isset($URL[1])){
+            require ('__confidencialsite__/404.php');
+        }
+
+        if ($URL[0] == "municipios" && is_numeric($URL[1])){
+            header("Location:".$listaPalavras[$URL[1]]);
+            exit();
+        }
+
+        if ($URL[0] == "municipios" && !is_numeric($URL[1])){
+            if(in_array($URL[1], $listaPalavras)){
+                
+                require ('__confidencialsite__/'.$URL[0].".php");
+            }
+            else{
+                require ('__confidencialsite__/404.php');
+            }
+            
+        }
+        if($URL[0]!= "municipios"){
+            require ('__confidencialsite__/'.$URL[0].".php");
+        }
+
         
-        require ('__confidencialsite__/'.$URL[0].".php");
+        
     }
     elseif (is_dir('__confidencialsite__/'.$URL[0])) {
         if($URL[0]=='api' or $URL[0]=='assets' or $URL[0]=='componente' or $URL[0]=='css'){

@@ -1,9 +1,7 @@
 <?php 
-    include("api/principaisNoticias.php");
-    include("api/novasNoticias.php");
+    include("api/pegaCidade.php");
 
-
-
+  
 
 
 ?>
@@ -12,20 +10,26 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title>Fortaleza - O Portal do Ceará </title>
+        <title><?php echo $listaPalavrasConvertidas[$id] ?> - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/cidades/capa.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/cidades/info.css"/>
         
-        <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
-        <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
+        
+        
+        <link type="text/css" rel="stylesheet" href="../css/geral/rodape.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/geral/navbar.css"/>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+        
 
         
         <style>
             body{
+                
                 font-family: 'Roboto', sans-serif;
             }
+            
+
     
         </style>
 
@@ -34,12 +38,11 @@
     
     <body>
         
-        <?php 
-        $linkMunicipio = "componente/cidades/$URL[1].php";
+        <?php include("componente/geral/navbar.html") ?>
+        <?php include("componente/municipios/capa.php") ?>  
+        <?php include("componente/municipios/info.php") ?>  
         
-            include($linkMunicipio);
         
-        ?>
         
     </body>
     

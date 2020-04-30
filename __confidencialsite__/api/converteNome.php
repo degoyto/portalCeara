@@ -2,10 +2,10 @@
 
     $listaPalavras = array(
                            0 => "todas-noticias",
-                           1 => "artigos", 
-                           2 => "boletim-portuario",
+                           1 => "fortaleza", 
+                           2 => "maracanau",
                            3 => "caucaia",
-                           4 => "comercio-exterior",
+                           4 => "juazeiro-norte",
                            5 => "complexo-portuario",
                            6 => "destaques-portuarios",
                            7 => "entrevistas",
@@ -20,10 +20,10 @@
                         );
     $listaPalavrasConvertidas = array(
                             0 => "Todas as Notícias",
-                            1 => "Artigos", 
-                            2 => "Boletim portuário",
-                            3 => "Notícias de Caucaia",
-                            4 => "Comércio Exterior",
+                            1 => "Fortaleza", 
+                            2 => "Maracanaú",
+                            3 => "Caucaia",
+                            4 => "Juazeiro do Norte",
                             5 => "Complexo Portuário",
                             6 => "Destaques Portuário",
                             7 => "Entrevistas",

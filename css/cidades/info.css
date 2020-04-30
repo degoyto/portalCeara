@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.carousel-item{
+    
+    width:100vw;
+    background-size: cover;
+    
+    align-items: center;
+    padding-top:2%;
+}
+.primeiroItem{
+    
+
+}
+.tituloItem{
+    
+    font-family: 'Roboto', sans-serif;
+}
+.tituloItem h1{
+    font-size:3.5vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+.conteudoItem{
+    margin-top:2%;
+}
