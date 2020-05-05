@@ -10,7 +10,7 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title><?php echo $listaPalavrasConvertidas[$id] ?> - O Portal do Ceará </title>
+        <title><?php echo $exibe['nome'] ?> - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/capa.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/info.css"/>

@@ -1,5 +1,6 @@
 <?php 
     include("__confidencialsite__/api/converteNome.php");
+    
 
     $REQUEST_URI = filter_input(INPUT_SERVER, 'REQUEST_URI');
     $INITE = strpos($REQUEST_URI, "?");
@@ -12,25 +13,34 @@
     if ($URL[0] == ''){
         $URL[0] = 'home';
     }
-    
+    if ($URL[0] == "municipios"){
+        include("__confidencialsite__/api/pegaCidade.php");
 
+    }
     if(file_exists('__confidencialsite__/'.$URL[0].".php")){
         if ($URL[0] == "municipios" && !isset($URL[1])){
             require ('__confidencialsite__/404.php');
         }
 
         if ($URL[0] == "municipios" && is_numeric($URL[1])){
-            header("Location:".$listaPalavras[$URL[1]]);
-            exit();
+            if(mysqli_num_rows($result) > 0){
+                header("Location:".$exibe['nomecru']);
+                exit();
+            }
+            else{
+                require ('__confidencialsite__/404.php');
+            }
+            
+           
         }
 
         if ($URL[0] == "municipios" && !is_numeric($URL[1])){
-            if(in_array($URL[1], $listaPalavras)){
+            if($numeroDeLinhas > 0){
                 
                 require ('__confidencialsite__/'.$URL[0].".php");
             }
             else{
-                require ('__confidencialsite__/404.php');
+                
             }
             
         }
