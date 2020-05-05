@@ -7,7 +7,7 @@
             
         </div>
         <div class="missaoTexto">
-            <?php include("cidadesDestaque/cidades.html") ?>
+            <?php include("cidadesDestaque/cidades.php") ?>
         </div>
     </div>
 </div>

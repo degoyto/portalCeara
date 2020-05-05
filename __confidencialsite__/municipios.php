@@ -38,7 +38,7 @@
     
     <body>
         
-        <?php include("componente/geral/navbar.html") ?>
+        <?php //include("componente/geral/navbar.html") ?>
         <?php include("componente/municipios/capa.php") ?>  
         <?php include("componente/municipios/info.php") ?>  
         
