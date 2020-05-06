@@ -14,9 +14,118 @@
     margin-top:10%;
 }
 #ceara{
-    background:#C1DFF0;
+    font-family: 'Roboto', sans-serif;
     padding-top:3%;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  
+  background-size: 100%, 100%;
+  
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.conteudoPaginas{
+    display:flex;
+    
+}
+.imgPagina1{
+    width:50%;
+    padding-top:15%;
+    
+}
+.imgPagina1 img{
+    width:100%;
+}
+.carouselItemCeara{
+    
+    width:100%;
+    
+    
+    
+}
+.cor1{
+    background:#C1DFF0;
+}
+.cor2{
+    background:#FFFD98
+}
+.cor3 {
+    background-color: #D2E4C4;
+}
+.textoPagina1{
+    margin-top:10%;
+    width:50%;
+    padding-top:5%;
+    margin-left:10%;
+    
+   
+}
+.textoPagina1 p{
+    width:100%;
+    margin-top:0%;
+    font-size:1.3vw;
+}
+.textoPagina1 h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:3vw;
+    font-weight:600;
+}
+
+/* paggina 2 */
+
+.imgPagina2{
+    width:50%;
+    padding-top:10%;
+    margin-left:15%;
+    margin-top:0%;
+}
+.imgPagina2 img{
+    width:100%;
+}
+
+.textoPagina2{
+    margin-top:5%;
+    width:50%;
+    
+    
+}
+.textoPagina2 p{
+    width:100%;
+    margin-top:2%;
+    font-size:1.3vw;
+}
+.textoPagina2 h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:3vw;
+    font-weight:600;
+}
+.textoPagina4{
+    margin-top:-2%;
+}
+.imgPagina4 svg{
+    width:120%;
+}
+
 /* .cearadiv{
     padding-top:10%;
 } */
