@@ -22,12 +22,10 @@
 }
 
 .linkTitulo{
-    
-    display: flex;
-    
+    background:green;
 }
 .imgLogoBar{
-    width:30%;
+    width:10%;
    
     
 }

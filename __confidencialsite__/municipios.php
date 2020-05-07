@@ -14,6 +14,7 @@
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/capa.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/info.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/cidades/noticias.css"/>
         
         
         
@@ -38,9 +39,16 @@
     
     <body>
         
-        <?php //include("componente/geral/navbar.html") ?>
-        <?php include("componente/municipios/capa.php") ?>  
-        <?php include("componente/municipios/info.php") ?>  
+        <?php include("componente/geral/navbarCidade.php") ?>
+        <?php include("componente/municipios/capa.php") ?> 
+        <div class="container-flex" id="cidade">
+            <?php include("componente/municipios/info.php") ?>  
+
+        </div> 
+        <div class="container-flex" id="noticias">
+            <?php include("componente/municipios/noticia.php") ?>  
+
+        </div>
         
         
         

@@ -5,19 +5,28 @@
 
 
 
-
 ?>
 <!DOCTYPE html>
 
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title>Painel - O Portal do Ceará </title>
+        <title>Cadastrar Notícia - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/junte.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/ceara.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/mapaID.css"/>
         
         
         <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
+        <link type="text/css" rel="stylesheet" href="css/adm/bulma.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/adm/addNoticia.css"/>
+        
+        
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
 
@@ -34,11 +43,9 @@
     
     <body>
         <?php //include("componente/geral/navbar.html") ?>
-
-       <h1>Bem Vindo <?php echo $_SESSION['usuario']; ?></h1>
-        <a href="cadastro_cidade"> cadastro de cidades</a><br>
-        <a href="cadastro-noticia-cidade"> cadastro de notícias</a><br>
-        <a href="logout"> Sair</a>
+        <?php include("componente/adm/cadastroNoticiaCidade.php") ?>
+            
+        
         
     </body>
     

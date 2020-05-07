@@ -1,0 +1,32 @@
+
+.noticiasCidade{
+    margin-top:5%;
+    background:aliceblue;
+    height: auto;
+    
+    
+}
+.noticiasCidade h1{
+    text-transform: uppercase;
+}
+.divNoticias{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:5%;
+    width:100%;
+}
+.imgNoticia{
+    width:100%;
+    height:200px;
+    border: 1px solid;
+    border-color: blueviolet;
+}
+.cadaNoticia{
+    margin-bottom:5%;
+    margin-left: 2%;
+    width:30%;
+    
+}
+.cadaNoticia h2{
+    margin-top: 2%;
+}

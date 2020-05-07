@@ -125,3 +125,58 @@ function fechaDivInfo(idRecebido){
 function redireciona(){
     console.log("redireciona")
 }
+
+
+
+
+
+// Your web app's Firebase configuration
+var firebaseConfig = {
+    apiKey: "AIzaSyAw6xl5wzRaJDJPWVqrrWlhKBiR3EvZO0M",
+    authDomain: "jornal-porto-do-pecem.firebaseapp.com",
+    databaseURL: "https://jornal-porto-do-pecem.firebaseio.com",
+    projectId: "jornal-porto-do-pecem",
+    storageBucket: "jornal-porto-do-pecem.appspot.com",
+    messagingSenderId: "117754526845",
+    appId: "1:117754526845:web:4f764a08dd39dbbc9f0514",
+    measurementId: "G-KWJJNLNFEC"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+function uploadImage(){
+    
+    document.getElementById('caixa-confirma').classList.remove("desativado");
+    document.getElementById('caixa-confirma').classList.add("ativo");
+    const ref = firebase.storage().ref()
+    const file = document.querySelector('#foto').files[0]
+    const name = new Date() + '-' + file.name
+    const metadata = {
+        contentType:file.type
+    }
+
+    const task = ref.child("noticias/"+name).put(file, metadata)
+    task.then(snapshot => snapshot.ref.getDownloadURL()).then(url =>{
+        const imageelement = document.querySelector("#imagem")
+        const testeelement = document.querySelector("#teste")
+
+
+        document.getElementById('img-processando').classList.remove("ativo");
+        document.getElementById('img-processando').classList.add("desativado");
+
+        document.getElementById('img-concluido').classList.remove("desativado");
+        document.getElementById('img-concluido').classList.add("ativo");
+
+        document.getElementById('btn-confirma').classList.remove("desativado");
+        document.getElementById('btn-confirma').classList.add("ativado");
+        
+        imageelement.src = url
+        testeelement.value = url
+        
+        
+    })
+}
+
+
+
+firebase.analytics();

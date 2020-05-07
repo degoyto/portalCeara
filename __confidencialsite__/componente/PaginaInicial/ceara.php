@@ -83,7 +83,7 @@
                             
                         </div>
                         <div class="container textoPagina1 textoPagina4">
-                            <h1> MESORREGIÕES NORTE</h1>
+                            <h1> MESORREGIÃO NORTE</h1>
                             <p>
                                     Microrregiões:<br>
                                 > Itapipoca: Amontada, Itapipoca, Trairi<br>
@@ -110,7 +110,7 @@
                             <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FnoroesteMapa.svg?alt=media&token=52e50f03-996b-4cdb-aba4-dd22c38eb0d2"/>
                         </div>
                         <div class="container textoPagina1 textoPagina4">
-                            <h1> MESORREGIÕES NOROESTE</h1>
+                            <h1> MESORREGIÃO NOROESTE</h1>
                             <p>
                                 
                                     Microrregiões:<br>
@@ -134,7 +134,7 @@
                             <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FsertoesMapa.svg?alt=media&token=6b9f90ed-18dd-4f09-bbc4-6631cce37ca3"/>
                         </div>
                         <div class="container textoPagina1">
-                            <h1> MESORREGIÕES SERTÕES</h1>
+                            <h1> MESORREGIÃO SERTÕES</h1>
                             <p>
                                 
                                 ><b>Sertão de Crateús:</b> Ararendá, Crateús, Independência, Ipaporanga, Monsenhor Tabosa,
@@ -154,7 +154,7 @@
                             <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FjaguaribeMapa.svg?alt=media&token=3471ec07-f881-4cd3-8407-42f9d3fb824f"/>
                         </div>
                         <div class="container textoPagina1">
-                            <h1>MESORREGIÕES REGIÃO JAGUARIBE </h1>
+                            <h1>MESORREGIÃO REGIÃO JAGUARIBE </h1>
                             <p>
                                 
                                 > <b>Litoral de Aracati:</b> Aracati, Fortim, Icapuí, Itaiçaba.<br>
@@ -173,7 +173,7 @@
                             <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FcentroMapa.svg?alt=media&token=74ec828a-3c8f-4605-bf9c-f76178039fc8"/>
                         </div>
                         <div class="container textoPagina1">
-                            <h1>MESORREGIÕES CENTRO-SUL</h1>
+                            <h1>MESORREGIÃO CENTRO-SUL</h1>
                             <p>
                                 
                                 ><b>Iguatu:</b> Cedro, Icó, Iguatu, Orós, Quixelô.<br>
@@ -189,7 +189,7 @@
                             <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FsulMapa.svg?alt=media&token=f90068d4-a187-4c92-b253-ac83a3facc43"/>
                         </div>
                         <div class="container textoPagina1">
-                            <h1>MESORREGIÕES SUL</h1>
+                            <h1>MESORREGIÃO SUL</h1>
                             <p>
                                
                                 ><b>Chapada do Araripe:</b> Araripe, Assaré, Campos Sales, Potengi, Salitre.<br>
