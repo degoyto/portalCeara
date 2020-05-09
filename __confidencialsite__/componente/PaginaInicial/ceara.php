@@ -86,19 +86,19 @@
                             <h1> MESORREGIÃO NORTE</h1>
                             <p>
                                     Microrregiões:<br>
-                                > Itapipoca: Amontada, Itapipoca, Trairi<br>
-                                    > Baixo Curu: Paracuru, Paraipaba, São Gonçalo do Amarante<br>
-                                    > Uruburetama: Itapajé, Tururu, Umirim, Uruburetama<br>
-                                    Médio Curu: Apuiarés, General Samapio, Pentencoste, São Luís do Curu, Tejuçuoca<br>
-                                    > Canindé: Canindé, Caridade, Itatira, Paramoti<br>
-                                    > Baturité: Acarape, Aracoiaba, Aratuba, Baturit, Capsitrano, Guaramiranga, Itapiúna,
+                                 <b> Itapipoca:</b> Amontada, Itapipoca, Trairi<br>
+                                     <b> Baixo Curu:</b> Paracuru, Paraipaba, São Gonçalo do Amarante<br>
+                                     <b> Uruburetama:</b> Itapajé, Tururu, Umirim, Uruburetama<br>
+                                    Médio Curu</b> Apuiarés, General Samapio, Pentencoste, São Luís do Curu, Tejuçuoca<br>
+                                     <b> Canindé:</b> Canindé, Caridade, Itatira, Paramoti<br>
+                                     <b> Baturité:</b> Acarape, Aracoiaba, Aratuba, Baturit, Capsitrano, Guaramiranga, Itapiúna,
                                     Mulungu, Pacoti, Palmácia, Redenção.<br>
-                                    > Chorozinho: Barreira, Chorozinho, Ocara<br>
-                                    > Cascavel: Beberib, Cascavel, Pindoretama<br>
+                                     <b> Chorozinho:</b> Barreira, Chorozinho, Ocara<br>
+                                     <b> Cascavel:</b> Beberib, Cascavel, Pindoretama<br>
                                     <b>REGIÃO METROPOLITANA DE FORTALEZA:</b><br>
-                                    > Fortaleza: Aquiraz, Caucaia, Eusébio, Fortaleza, Guaiúba, Itaitinga, Maracanaú,
+                                     <b> Fortaleza:</b> Aquiraz, Caucaia, Eusébio, Fortaleza, Guaiúba, Itaitinga, Maracanaú,
                                     Maranguape, Pacatuba.<br>
-                                    > Pacajus: Horizonte, Pacajus<br><br>
+                                     <b>Pacajus:</b> Horizonte, Pacajus<br><br>
                             </p>
                         </div>
                     </div>
@@ -114,16 +114,16 @@
                             <p>
                                 
                                     Microrregiões:<br>
-                                    > <b>Litoral de Camocim e Acaraú:</b> Acaraú, Barroquinha, Bela Cruz, Camocim, Chaval, Cruz
+                                     <b>Litoral de Camocim e Acaraú:</b> Acaraú, Barroquinha, Bela Cruz, Camocim, Chaval, Cruz
                                     Granja, Itarema, Jijoca de Jericoacoara, Marco, Martinópole, Morrinhos.<br>
-                                    > <b>Ibiapaba:</b> Carnaubal, Croatá, Guaraciaba do Norte, Ibiapina, São Benedito, Tianguá,
+                                     <b>Ibiapaba:</b> Carnaubal, Croatá, Guaraciaba do Norte, Ibiapina, São Benedito, Tianguá,
                                     Ubajara, Viçosa do Ceará<br>
-                                    > Coreaú:</b> Coreaú, Frecheirinha, Moraújo, Uruoca<br>
-                                > <b>Meruoca:</b> Alcântaras, Meruoca<br>
-                                    > <b>Sobral:</b> Cariré, Forquilha, Graça, Groaíras, Irauçuba, Massapê, Miraíma, Mucambo,
+                                     <b> Coreaú:</b> Coreaú, Frecheirinha, Moraújo, Uruoca<br>
+                                 <b>Meruoca:</b> Alcântaras, Meruoca<br>
+                                     <b>Sobral:</b> Cariré, Forquilha, Graça, Groaíras, Irauçuba, Massapê, Miraíma, Mucambo,
                                     Pacujá, Santana do Acaraú, Senadpr Sá, Sobral<br>
-                                > <b>Ipu:</b> Ipu, Ipueiras, Pires Ferreira, Poranga, Reriutaba, Varjota<br>
-                                    > <b>Santa Quitéria:</b> Catunda, Hidrolândia, Santa Quitéria<br>
+                                 <b>Ipu:</b> Ipu, Ipueiras, Pires Ferreira, Poranga, Reriutaba, Varjota<br>
+                                     <b>Santa Quitéria:</b> Catunda, Hidrolândia, Santa Quitéria<br>
                             </p>
                         </div>
                     </div>
@@ -137,12 +137,12 @@
                             <h1> MESORREGIÃO SERTÕES</h1>
                             <p>
                                 
-                                ><b>Sertão de Crateús:</b> Ararendá, Crateús, Independência, Ipaporanga, Monsenhor Tabosa,
+                                <b>Sertão de Crateús:</b> Ararendá, Crateús, Independência, Ipaporanga, Monsenhor Tabosa,
                                 Nova Russas, Novo Oriente, Quiterianópolis, Tamboril.<br>
-                                ><b>Sertão de Quixeramobim:</b> Banabuiú, Boa Viagem, Chor, Ibaretama, Quixadá,
-                                Quixeramobim.><br>
-                                ><b>Sertão de Inhamuns:</b> Aiuaba, Arneiroz, Catarina, Paramb, Saboeiro, Tauá.<br>
-                                ><b>Sertão de Senador Pompeu:</b> Acopiara, Deputado Irapuan Pinheiro, Milhã, Mombaça,
+                                <b>Sertão de Quixeramobim:</b> Banabuiú, Boa Viagem, Chor, Ibaretama, Quixadá,
+                                Quixeramobim.<br>
+                                <b>Sertão de Inhamuns:</b> Aiuaba, Arneiroz, Catarina, Paramb, Saboeiro, Tauá.<br>
+                                <b>Sertão de Senador Pompeu:</b> Acopiara, Deputado Irapuan Pinheiro, Milhã, Mombaça,
                                 Pedra Branca, Piquet Carneiro, Senador Pompeu, Solonópole.<br>
                             </p>
                         </div>
@@ -157,12 +157,12 @@
                             <h1>MESORREGIÃO REGIÃO JAGUARIBE </h1>
                             <p>
                                 
-                                > <b>Litoral de Aracati:</b> Aracati, Fortim, Icapuí, Itaiçaba.<br>
-                                > <b>Baixo Jaguaribe:</b> Alto Santo, Ibicuitinga, Jaguaruana, Limoeiro do Norte, Morada Nova,
+                                 <b>Litoral de Aracati:</b> Aracati, Fortim, Icapuí, Itaiçaba.<br>
+                                 <b>Baixo Jaguaribe:</b> Alto Santo, Ibicuitinga, Jaguaruana, Limoeiro do Norte, Morada Nova,
                                 Palhano, Quixeré, Russas, São João do Jaguaribe, Tabuleiro do Norte.<br>
 
-                                > <b>Médio Jaguaribe:</b> Jaguaretama, Jaguaribara, Jaguaribe.<br>
-                                > <b>Serra do Pereiro:</b> Ereré, Iracema, Pereiro, Potiretama.<br>
+                                 <b>Médio Jaguaribe:</b> Jaguaretama, Jaguaribara, Jaguaribe.<br>
+                                 <b>Serra do Pereiro:</b> Ereré, Iracema, Pereiro, Potiretama.<br>
                             </p>
                         </div>
                     </div>
@@ -176,9 +176,9 @@
                             <h1>MESORREGIÃO CENTRO-SUL</h1>
                             <p>
                                 
-                                ><b>Iguatu:</b> Cedro, Icó, Iguatu, Orós, Quixelô.<br>
-                                ><b>Várzea Alegre:</b> Antonina do Norte, Cariús, Jucás, Tarrafas, Várzea Alegre.<br>
-                                ><b>Lavras da Mangabeira:</b> Baixio, Ipaumirim, Lavras da Mangabeira, Umari.<br>
+                                <b>Iguatu:</b> Cedro, Icó, Iguatu, Orós, Quixelô.<br>
+                                <b>Várzea Alegre:</b> Antonina do Norte, Cariús, Jucás, Tarrafas, Várzea Alegre.<br>
+                            <b>Lavras da Mangabeira:</b> Baixio, Ipaumirim, Lavras da Mangabeira, Umari.<br>
                             </p>
                         </div>
                     </div>
@@ -192,12 +192,12 @@
                             <h1>MESORREGIÃO SUL</h1>
                             <p>
                                
-                                ><b>Chapada do Araripe:</b> Araripe, Assaré, Campos Sales, Potengi, Salitre.<br>
-                                ><b>Caririaçu:</b> Altaneira, Caririaçu, Farias Brito, Granjeiro.<br>
-                                ><b>Barro:</b> Aurora, Barr, Mauriti.<br>
-                                ><b>Cariri:</b> Barbalha, Crato, Jardim, Juazeiro do Norte, Missão Velha, Nova Olinda,
+                                <b>Chapada do Araripe:</b> Araripe, Assaré, Campos Sales, Potengi, Salitre.<br>
+                                <b>Caririaçu:</b> Altaneira, Caririaçu, Farias Brito, Granjeiro.<br>
+                                <b>Barro:</b> Aurora, Barr, Mauriti.<br>
+                                <b>Cariri:</b> Barbalha, Crato, Jardim, Juazeiro do Norte, Missão Velha, Nova Olinda,
                                 Porteiras – Santana do Cariri<br>
-                                ><b>Brejo Santo:</b> Abaiara, Brejo Santo, Jati, Milagres, Penaforte.<br>
+                                <b>Brejo Santo:</b> Abaiara, Brejo Santo, Jati, Milagres, Penaforte.<br>
                             </p>
                         </div>
                     </div>

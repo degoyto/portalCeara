@@ -7,7 +7,7 @@ var atual = 1;
 
     function abreGif(){
         document.getElementById("gifLogo").src = ""
-        document.getElementById("gifLogo").src = "https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/gifLogo.gif?alt=media&token=b3c9f7c6-d820-4a44-90e2-b39f90e0d95b"
+        document.getElementById("gifLogo").src = "https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/robotoMaiusculo.gif?alt=media&token=3c083925-8f77-4126-b5ca-d2b9421906b0"
         
         
         document.getElementById("textoCapa").classList.remove("fechaTudo");
