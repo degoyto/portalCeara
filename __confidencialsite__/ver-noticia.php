@@ -35,11 +35,7 @@
     <body>
         <?php //include("componente/geral/navbar.html") ?>
 
-       <h1>Bem Vindo <?php echo $_SESSION['usuario']; ?></h1>
-        <a href="cadastro_cidade"> cadastro de cidades</a><br>
-        <a href="cadastro-noticia-cidade"> cadastro de notícias</a><br>
-        <a href="ver-noticias"> ver notícias</a><br>
-        <a href="logout"> Sair</a>
+       
         
     </body>
     

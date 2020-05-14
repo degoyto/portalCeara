@@ -13,23 +13,22 @@
         <?php include("componente/headGeral.php")?>
         <title>Cadastrar Notícia - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/junte.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/ceara.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
+        
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/mapaID.css"/>
-        
-        
         <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
-        <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
+        
+        <link type="text/css" rel="stylesheet" href="css/adm/cadastroNoticia.css"/>
         <link type="text/css" rel="stylesheet" href="css/adm/bulma.min.css"/>
-        <link type="text/css" rel="stylesheet" href="css/adm/addNoticia.css"/>
+
         
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
 
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.15/dist/summernote.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.15/dist/summernote.min.js"></script>
         
         <style>
             body{
@@ -42,20 +41,24 @@
     
     
     <body>
-        <?php //include("componente/geral/navbar.html") ?>
-        <?php include("componente/adm/cadastroNoticiaCidade.php") ?>
-            
         
+        <?php include("componente/adm/cadastroNoticiaCidade.php") ?>
+        <script>
+            $(document).ready(function() {
+                $('#summernote').summernote();
+            });
+        </script>
         
     </body>
-    
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
     
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
     
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-storage.js"></script>
+    <script src="js/upImage.js"></script>
 </html>
 
 
