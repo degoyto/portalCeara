@@ -32,13 +32,13 @@
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 55px;
+  font-size: 3vw;
   color: black;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 55px;
+  font-size: 3vw;
   color: black;
 }
 
@@ -48,15 +48,22 @@
 }
 .imgPagina1{
     width:50%;
-    padding-top:15%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 .imgPagina1 img{
     width:100%;
 }
+
 .carouselItemCeara{
+   
     
-    width:100%;
+    width:100vw;
+    padding-bottom:2%;
     
     
     
@@ -65,15 +72,15 @@
     background:#C1DFF0;
 }
 .cor2{
-    background:#FFFD98
+    background:#EDD3C4;
 }
 .cor3 {
     background-color: #D2E4C4;
 }
 .textoPagina1{
-    margin-top:6%;
+   
     width:50%;
-    padding-top:5%;
+    margin-top:2%;
     margin-left:10%;
     
    
@@ -94,9 +101,9 @@
 
 .imgPagina2{
     width:50%;
-    padding-top:10%;
+    padding-top:5%;
     margin-left:15%;
-    margin-top:0%;
+  
 }
 .imgPagina2 img{
     width:100%;
@@ -110,7 +117,7 @@
 }
 .textoPagina2 p{
     width:100%;
-    margin-top:2%;
+    
     font-size:1.3vw;
 }
 .textoPagina2 h1{
@@ -120,7 +127,7 @@
     font-weight:600;
 }
 .textoPagina4{
-    margin-top:-2%;
+   
 }
 .imgPagina4 svg{
     width:120%;

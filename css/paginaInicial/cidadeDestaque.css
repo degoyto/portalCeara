@@ -23,8 +23,7 @@
 
 /* Cidades */
 .cidadeAtivada{
-    overflow-x:hidden;
-    overflow-y:visible;
+    
     height:500px;
     margin-top:8%;
     padding-right:2%;
