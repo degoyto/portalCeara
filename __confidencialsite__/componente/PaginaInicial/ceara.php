@@ -4,7 +4,7 @@
             <div class="carousel-item carouselItemCeara cor1 container-flex active">
                 <div class="container conteudoPaginas">
                     <div class="imgPagina1">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FmapaCompletoFinal.png?alt=media&token=4d3c9b8c-ba26-4a25-b7e5-70f7492f9427"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2Fcompleto.png?alt=media&token=521c6e64-707e-49fa-82dd-eb2df193f969"/>
                     </div>
                     <div class="container textoPagina1">
                         <h1> O Ceará</h1>
@@ -30,7 +30,7 @@
                 <div class="carousel-item carouselItemCeara cor2 container-flex">
                     <div class="container conteudoPaginas">
                         <div class="imgPagina1 imgPagina4">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FnorteMapa.svg?alt=media&token=42045636-5a4f-4eba-81e3-859749594638"/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FnorteMapa.png?alt=media&token=1fad8c79-7f41-458b-af45-11995a300d91"/>
                             
                         </div>
                         <div class="container textoPagina1 textoPagina4">
@@ -58,7 +58,7 @@
                 <div class="carousel-item carouselItemCeara cor3 container-flex">
                     <div class="container conteudoPaginas">
                         <div class="imgPagina1 imgPagina4">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FnoroesteMapa.svg?alt=media&token=52e50f03-996b-4cdb-aba4-dd22c38eb0d2"/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FnoroesteMapa.png?alt=media&token=8aa3c844-577e-4e3f-8c60-f779e9b05969"/>
                         </div>
                         <div class="container textoPagina1 textoPagina4">
                             <h1> MESORREGIÃO NOROESTE</h1>
@@ -102,7 +102,7 @@
                 <div class="carousel-item carouselItemCeara cor2 container-flex">
                     <div class="container conteudoPaginas">
                         <div class="imgPagina1 imgPagina4">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FjaguaribeMapa.svg?alt=media&token=3471ec07-f881-4cd3-8407-42f9d3fb824f"/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FjaguaribeMapa.png?alt=media&token=c12eebe3-c037-4c0e-9502-490a824cae6e"/>
                         </div>
                         <div class="container textoPagina1">
                             <h1>MESORREGIÃO REGIÃO JAGUARIBE </h1>
@@ -121,7 +121,7 @@
                 <div class="carousel-item carouselItemCeara cor3 container-flex">
                     <div class="container conteudoPaginas">
                         <div class="imgPagina1 imgPagina4">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FcentroMapa.svg?alt=media&token=74ec828a-3c8f-4605-bf9c-f76178039fc8"/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FcentroMapa.png?alt=media&token=12adac10-581c-4e92-a668-c4703e9b6ed8"/>
                         </div>
                         <div class="container textoPagina1">
                             <h1>MESORREGIÃO CENTRO-SUL</h1>
