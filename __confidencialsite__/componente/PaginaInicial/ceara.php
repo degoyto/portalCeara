@@ -7,7 +7,7 @@
                         <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2Fcompleto.png?alt=media&token=521c6e64-707e-49fa-82dd-eb2df193f969"/>
                     </div>
                     <div class="container textoPagina1">
-                        <h1> O Ceará</h1>
+                        <h2> O Ceará</h2>
                         <p>
                         O Estado do Ceará fica na região Nordeste do Brasil e tem uma área total de 148.886,308 km². Ele
                         faz divisa com os estados de Pernambuco, Rio Grande do Norte, Paraíba e Piauí. É banhado pelo
@@ -29,12 +29,12 @@
 
                 <div class="carousel-item carouselItemCeara cor2 container-flex">
                     <div class="container conteudoPaginas">
-                        <div class="imgPagina1 imgPagina4">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FnorteMapa.png?alt=media&token=1fad8c79-7f41-458b-af45-11995a300d91"/>
+                        <div class="imgPagina1">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FnorteMapa.png?alt=media&token=f1c0b0db-8be2-419a-867b-0044791bada0"/>
                             
                         </div>
-                        <div class="container textoPagina1 textoPagina4">
-                            <h1> MESORREGIÃO NORTE</h1>
+                        <div class="container textoPagina1">
+                            <h2> MESORREGIÃO NORTE</h2>
                             <p>
                                     <b>Microrregiões:</b><br><br>
                                  <b> Itapipoca:</b> Amontada, Itapipoca, Trairi.<br>
@@ -57,11 +57,11 @@
 
                 <div class="carousel-item carouselItemCeara cor3 container-flex">
                     <div class="container conteudoPaginas">
-                        <div class="imgPagina1 imgPagina4">
+                        <div class="imgPagina1 imgJaguaribe">
                             <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FnoroesteMapa.png?alt=media&token=8aa3c844-577e-4e3f-8c60-f779e9b05969"/>
                         </div>
-                        <div class="container textoPagina1 textoPagina4">
-                            <h1> MESORREGIÃO NOROESTE</h1>
+                        <div class="container textoPagina1">
+                            <h2> MESORREGIÃO NOROESTE</h2>
                             <p>
                                 
                                    <b>Microrregiões:</b><br><br>
@@ -81,11 +81,11 @@
                 </div>
                 <div class="carousel-item carouselItemCeara cor1 container-flex">
                     <div class="container conteudoPaginas">
-                        <div class="imgPagina1 imgPagina4">
+                        <div class="imgPagina1">
                             <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FsertoesMapa.svg?alt=media&token=6b9f90ed-18dd-4f09-bbc4-6631cce37ca3"/>
                         </div>
                         <div class="container textoPagina1">
-                            <h1> MESORREGIÃO SERTÕES</h1>
+                            <h2> MESORREGIÃO SERTÕES</h2>
                             <p>
                                 <b>Microrregiões:</b><br><br>
                                 <b>Sertão de Crateús:</b> Ararendá, Crateús, Independência, Ipaporanga, Monsenhor Tabosa,
@@ -99,13 +99,22 @@
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
                 <div class="carousel-item carouselItemCeara cor2 container-flex">
                     <div class="container conteudoPaginas">
-                        <div class="imgPagina1 imgPagina4">
+                        <div class="imgPagina1 imgJaguaribe">
                             <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FjaguaribeMapa.png?alt=media&token=c12eebe3-c037-4c0e-9502-490a824cae6e"/>
                         </div>
                         <div class="container textoPagina1">
-                            <h1>MESORREGIÃO REGIÃO JAGUARIBE </h1>
+                            <h2>MESORREGIÃO REGIÃO JAGUARIBE </h2>
                             <p>
                                 <b>Microrregiões:</b><br><br>
                                  <b>Litoral de Aracati:</b> Aracati, Fortim, Icapuí, Itaiçaba.<br>
@@ -118,13 +127,16 @@
                         </div>
                     </div>
                 </div>
+
+
+                
                 <div class="carousel-item carouselItemCeara cor3 container-flex">
                     <div class="container conteudoPaginas">
-                        <div class="imgPagina1 imgPagina4">
+                        <div class="imgPagina1 imgCentro">
                             <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/mapas%2FcentroMapa.png?alt=media&token=12adac10-581c-4e92-a668-c4703e9b6ed8"/>
                         </div>
                         <div class="container textoPagina1">
-                            <h1>MESORREGIÃO CENTRO-SUL</h1>
+                            <h2>MESORREGIÃO CENTRO-SUL</h2>
                             <p>
                                 <b>Microrregiões:</b><br><br>
                                 <b>Iguatu:</b> Cedro, Icó, Iguatu, Orós, Quixelô.<br>
@@ -136,11 +148,11 @@
                 </div>
                 <div class="carousel-item carouselItemCeara cor2 container-flex">
                     <div class="container conteudoPaginas">
-                        <div class="imgPagina1 imgPagina4">
+                        <div class="imgPagina1">
                             <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/maps%2FsulMapa.svg?alt=media&token=f90068d4-a187-4c92-b253-ac83a3facc43"/>
                         </div>
                         <div class="container textoPagina1">
-                            <h1>MESORREGIÃO SUL</h1>
+                            <h2>MESORREGIÃO SUL</h2>
                             <p>
                                <b>Microrregiões:</b><br><br>
                                 <b>Chapada do Araripe:</b> Araripe, Assaré, Campos Sales, Potengi, Salitre.<br>

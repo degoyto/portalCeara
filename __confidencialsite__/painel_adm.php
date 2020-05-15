@@ -1,6 +1,8 @@
 <?php 
     session_start();
-    include("api/verifica_login.php")
+    include("api/verifica_login.php");
+    include("api/pegaTodasCidades.php");  
+
 
 
 
@@ -14,6 +16,7 @@
         <?php include("componente/headGeral.php")?>
         <title>Painel - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
+        <link type="text/css" rel="stylesheet" href="css/adm/cidadeAdm.css"/>
         
         
         <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
@@ -39,6 +42,9 @@
         <a href="cadastro_cidade"> cadastro de cidades</a><br>
         <a href="cadastro-noticia-cidade"> cadastro de notícias</a><br>
         <a href="ver-noticias"> ver notícias</a><br>
+        <div class="container">
+            <?php include("componente/adm/cidadesAdm.php") ?>
+        </div>
         <a href="logout"> Sair</a>
         
     </body>

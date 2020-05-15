@@ -81,57 +81,32 @@
    
     width:50%;
     margin-top:2%;
-    margin-left:10%;
+    margin-left:5%;
     
    
 }
 .textoPagina1 p{
     width:100%;
     margin-top:0%;
-    font-size:1.3vw;
+    font-size:22px;
 }
-.textoPagina1 h1{
+.textoPagina1 h2{
     text-transform: uppercase;
     text-align: center;
-    font-size:3vw;
+    
     font-weight:600;
 }
 
-/* paggina 2 */
-
-.imgPagina2{
-    width:50%;
-    padding-top:5%;
-    margin-left:15%;
-  
-}
-.imgPagina2 img{
-    width:100%;
-}
-
-.textoPagina2{
+.imgJaguaribe img{
+    width:88%;
     margin-top:5%;
-    width:50%;
-    
-    
 }
-.textoPagina2 p{
-    width:100%;
-    
-    font-size:1.3vw;
+.imgCentro img{
+    margin-top:5%;
+    width:80%;
 }
-.textoPagina2 h1{
-    text-transform: uppercase;
-    text-align: center;
-    font-size:3vw;
-    font-weight:600;
-}
-.textoPagina4{
-   
-}
-.imgPagina4 svg{
-    width:120%;
-}
+
+
 
 /* .cearadiv{
     padding-top:10%;

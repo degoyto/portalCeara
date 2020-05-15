@@ -1,6 +1,7 @@
 <?php 
     session_start();
-    include("api/verifica_login.php")
+    include("api/verifica_login.php");
+    include("api/pegaCidade.php");
 
 
 
@@ -11,7 +12,7 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title>Página Inicial - O Portal do Ceará </title>
+        <title>Editar Cidade - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
@@ -48,7 +49,7 @@
     
     <body>
         <?php //include("componente/geral/navbar.html") ?>
-        <?php include("componente/adm/cadastroCidadeComponente.php") ?>
+        <?php include("componente/adm/editarCidadeComponente.php") ?>
             
         <script>
             $(document).ready(function() {
