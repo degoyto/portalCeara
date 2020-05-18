@@ -18,8 +18,8 @@
 .imgNoticia{
     width:100%;
     height:200px;
-    border: 1px solid;
-    border-color: blueviolet;
+    
+    background-size:cover ;
 }
 .cadaNoticia{
     margin-bottom:5%;

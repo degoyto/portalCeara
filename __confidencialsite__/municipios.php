@@ -1,5 +1,6 @@
 <?php 
     include("api/pegaCidade.php");
+    include("api/novasNoticias.php");
 
   
 

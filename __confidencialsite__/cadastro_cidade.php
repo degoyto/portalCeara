@@ -13,12 +13,8 @@
         <?php include("componente/headGeral.php")?>
         <title>Página Inicial - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/junte.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/ceara.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/mapaID.css"/>
+        <link type="text/css" rel="stylesheet" href="css/adm/cadastroNoticia.css"/>
+        
         
         <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
@@ -58,7 +54,13 @@
         
     </body>
     
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
 
+    
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-storage.js"></script>
+    <script src="js/upImage.js"></script>
 
    
     

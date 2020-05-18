@@ -21,7 +21,7 @@
                 ?>
                 
                 <div class="container">
-                    <form action="/updateCidade" method="POST" accept-charset="UTF-8">
+                    <form action="/portalceara/updateCidade" method="POST" accept-charset="UTF-8">
                         <div class="form-group">
                             <label for="exampleInputNome1">Nome da Cidade</label>
                             <input name="nome" type="text" class="form-control" id="exampleInputNome1"  value="<?php echo $exibe['nome'] ?>">

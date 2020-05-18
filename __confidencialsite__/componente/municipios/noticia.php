@@ -4,16 +4,18 @@
     
     <div class="divNoticias">
         <?php 
-            $numero = 0;
-            while ($numero<10){
+
+            while ($exibePrincipais = mysqli_fetch_assoc($principais)){
+                $linkImg = $exibePrincipais['foto'];
+            
                 echo "<div class='cadaNoticia'>
-                <div class='imgNoticia'>
+                <div class='imgNoticia' style=background-image:url('".$linkImg."')>
     
                 </div>
-                <h2>Título".$numero."</h2>
+                <h2>".$exibePrincipais['titulo']."</h2>
             </div>";
-            $numero++;
-            }
+            
+            };
         ?>
         
         
