@@ -6,7 +6,7 @@
         
             while($exibeTodasCidades = mysqli_fetch_assoc($resultTodasCidades)){
                 $linkFotoAdm = $exibeTodasCidades['foto'];
-                $linkPaginaCidade = "http://localhost/portalceara/municipios/".$exibeTodasCidades['nomecru'];
+                $linkPaginaCidade = "municipios/".$exibeTodasCidades['nomecru'];
                 echo 
                 "<div class='cadaCidade'>
                         <div class='imagemCidadeAdm' style=background-image:url('".$linkFotoAdm."')></div>

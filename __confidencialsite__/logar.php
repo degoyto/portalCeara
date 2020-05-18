@@ -16,7 +16,7 @@
 
     
     $linhas = mysqli_num_rows($resultadoDaConsulta);
-    echo $linhas;
+    
     if ($linhas == 1){
         $_SESSION['usuario'] = $usuario;
         header("Location: painel_adm");
@@ -24,7 +24,7 @@
     }
     else{
         $_SESSION['nao_autenticado'] = true;
-        echo $_SESSION['nao_autenticado'];
+        
         header("Location: login"); 
         exit();
     }

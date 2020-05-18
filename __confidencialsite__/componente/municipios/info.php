@@ -12,6 +12,7 @@
         
     }
     if (ISSET($_SESSION['usuario'])){
+        
         echo "<a href='http://localhost/portalceara/editar_cidade/".$exibe['id']."'>editar</a>";
     }
     
@@ -21,14 +22,19 @@
   <div class="carousel-inner">
     <div class="carousel-item active primeiroItem">
         <div class="container tituloItem">
-            <h1><?php echo $exibe['nome'] ?></h1>
+            
             
         <div>
         <div class="conteudoItem">
-            <p>
+            <h3>
+               <b></b><i> <?php echo $exibe['apelido'] ?> </i></b>
+            </h3>
+            <p><br>
                 <?php echo $exibe['resumo'] ?>
             </p>
-            <p>
+            <p><br><br>
+                <b>Mesorregião:</b> <?php echo $exibe['mesorregiao'] ?><br><br>
+                <b>Microrregião:</b> <?php echo $exibe['microrregiao'] ?><br><br>
                 <b>Área:</b> <?php echo $exibe['area'] ?> km²<br><br>
                 <b>População:</b> <?php echo $exibe['populacao'].' habitantes' ?>  <br><br>
                 <b>Municípios Limitrófes:</b> <?php echo $exibe['limite'] ?> <br><br>

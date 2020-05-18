@@ -2,14 +2,14 @@
     include("__confidencialsite__/api/converteNome.php");
     
 
-    $REQUEST_URI = filter_input(INPUT_SERVER, 'REQUEST_URI');
-    //$REQUEST_URI = $_SERVER[REQUEST_URI];
+    //$REQUEST_URI = filter_input(INPUT_SERVER, 'REQUEST_URI');
+    $REQUEST_URI = $_SERVER['REQUEST_URI'];
     $INITE = strpos($REQUEST_URI, "?");
     if($INITE){
         $REQUEST_URI = substr($REQUEST_URI, 0, $INITE);
     }
-    $REQUEST_URI_PASTA = substr($REQUEST_URI, 13);
-    //$REQUEST_URI_PASTA = substr($REQUEST_URI, 1);
+    //$REQUEST_URI_PASTA = substr($REQUEST_URI, 13);
+    $REQUEST_URI_PASTA = substr($REQUEST_URI, 1);
 
     $URL = explode("/", $REQUEST_URI_PASTA);
     if ($URL[0] == ''){

@@ -21,10 +21,32 @@
                 ?>
                 
                 <div class="container">
-                    <form action="/portalceara/updateCidade" method="POST">
+                    <form action="/updateCidade" method="POST" accept-charset="UTF-8">
                         <div class="form-group">
                             <label for="exampleInputNome1">Nome da Cidade</label>
                             <input name="nome" type="text" class="form-control" id="exampleInputNome1"  value="<?php echo $exibe['nome'] ?>">
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exampleInputNome1">Nome sem acentos</label>
+                            <input name="nomea" type="text" class="form-control" id="exampleInputNome1"  value="<?php echo $exibe['nomecru'] ?>">
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exampleInputNome1">Apelido da Cidade</label>
+                            <input name="apelido" type="text" class="form-control" id="exampleInputNome1"  value="<?php echo $exibe['apelido'] ?>">
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputNome1">Mesorregião</label>
+                            <input name="mesorregiao" type="text" class="form-control" id="exampleInputNome1"  value="<?php echo $exibe['mesorregiao'] ?>">
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputNome1">Microrregião</label>
+                            <input name="microrregiao" type="text" class="form-control" id="exampleInputNome1"  value="<?php echo $exibe['microrregiao'] ?>">
                             
                         </div>
 
