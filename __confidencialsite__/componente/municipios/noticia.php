@@ -7,13 +7,19 @@
 
             while ($exibePrincipais = mysqli_fetch_assoc($principais)){
                 $linkImg = $exibePrincipais['foto'];
+                $linkNoticia = "/portalceara/noticias/".$URL[1]."/".$exibePrincipais['id'];
             
-                echo "<div class='cadaNoticia'>
-                <div class='imgNoticia' style=background-image:url('".$linkImg."')>
+                echo 
+                "<a class='linkNoticia' href='".$linkNoticia."'>
+                    <div class='cadaNoticia'>
+                        <div class='imgNoticia' style=background-image:url('".$linkImg."')>
     
-                </div>
-                <h2>".$exibePrincipais['titulo']."</h2>
-            </div>";
+                        </div>
+                        <div class='tituloNoticia'>
+                            <h2>".$exibePrincipais['titulo']."</h2>
+                        </div>
+                    </div>
+                </a>";
             
             };
         ?>

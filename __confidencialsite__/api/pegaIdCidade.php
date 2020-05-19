@@ -8,7 +8,9 @@
     
     $exibeIdCidade = mysqli_fetch_assoc($idCidadeResult);
     
-    
+    function pegaId($idRecebido){
+        
+    }
    
     
 ?>

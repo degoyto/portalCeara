@@ -7,7 +7,7 @@
     
     
     mysqli_set_charset($connect,"utf8");
-    $resultTodasCidades = mysqli_query($connect, "SELECT * FROM cidades");
+    $resultTodasCidades = mysqli_query($connect, "SELECT * FROM cidades ORDER BY nome ASC");
     
     
     

@@ -1,9 +1,11 @@
 <?php 
     include("db.php");
-    include("pegaIdCidade.php");
+   
     mysqli_set_charset($connect,"utf8");
-    $idCidadeNovo = $exibeIdCidade['id'] ;
-    $principais = mysqli_query($connect, "SELECT id, titulo, foto, tituloConvertido, cidade FROM noticias  WHERE cidade= $idCidadeNovo ORDER BY createdAt DESC limit 6");
+    
+    $principais = mysqli_query($connect, "SELECT id, titulo, foto, tituloConvertido, cidade, id FROM noticias where (
+        SELECT id from cidades WHERE nomecru='$URL[1]') = cidade  ORDER BY createdAt DESC limit 6");
+    echo mysqli_error($connect);
     // $principaisLista = array();
     
    
