@@ -1,6 +1,7 @@
 <?php 
     
     include("api/pegaTodasNoticias.php");
+    include("api/pegaTodasCidades.php");
 
   
 
@@ -11,15 +12,26 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title>Notícias - O Portal do Ceará </title>
+        <title>
+            <?php
+                if (!isset($URL[1])){
+                    echo "Notícias do Ceará";
+                }
+                else{
+                    echo "Notícias de ".$URL[1]."";
+                }
+            ?>
+        </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         
-        <link type="text/css" rel="stylesheet" href="css/noticias/listaCidades.css"/>
+        <link type="text/css" rel="stylesheet" href="css/noticias/noticias.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/noticias/noticias.css"/>
         
         
         
         <link type="text/css" rel="stylesheet" href="../css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/geral/navbar.css"/>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         
 

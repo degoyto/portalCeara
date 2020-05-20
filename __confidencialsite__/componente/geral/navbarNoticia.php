@@ -1,4 +1,4 @@
-<div class="container-flex barra-cima bg-light naoFixo">
+<div class="container-flex barra-cima bg-light naoFixo sombra">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <a class="navbar-brand" href="/home">
