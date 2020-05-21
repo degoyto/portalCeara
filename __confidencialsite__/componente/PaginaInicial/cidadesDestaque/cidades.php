@@ -40,14 +40,14 @@ function limita_caracteres($texto, $limite, $quebra = true) {
         while($exibeTodasCidades = mysqli_fetch_assoc($resultTodasCidades)){
             $idAtual = $exibeTodasCidades['id'];
             echo 
-            "<div id='cidade$idAtual' class='cidadeDesativada'>
+            "<div id='cidade".$idAtual."' class='cidadeDesativada'>
                 <h1>".$exibeTodasCidades['nome']."</h1>
                 <p>".
                     limita_caracteres($exibeTodasCidades['resumo'],500)."
 
                 </p>
             </div>";
-            //echo $exibeTodasCidades['nome'] .'<br>';
+            
         }
     
     ?>

@@ -1,6 +1,7 @@
 .divDestaque{
     
     padding-top:50px;
+    background-color: #F1FFFA;
 }
 
 .mapaCidade{
@@ -13,29 +14,11 @@
 .mapSvg svg{
     width:80%;
 }
-.destaqueTexto{
-    width:50%;
-    margin-top:-60%;
-    margin-left:60%;
-    position: absolute;
-    font-size:1.5vw;
-}
 
-/* Cidades */
-.cidadeAtivada{
-    
-    height:500px;
-    margin-top:8%;
-    padding-right:2%;
-}
-.destaqueTexto .cidadeAtivada{
-    display: block;
-    animation: fadeIn 2s;
-}
 
-.destaqueTexto .cidadeDesativada{
-    display:none;
-}
+/* texto */
+
+
 
 @keyframes fadeIn{
     from{   

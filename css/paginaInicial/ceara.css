@@ -44,7 +44,9 @@
 
 .conteudoPaginas{
     display:flex;
-    
+    height:80vh;
+    min-height:500px;
+    max-height:1000px;
 }
 .imgPagina1{
     width:50%;
@@ -78,17 +80,22 @@
     background-color: #D2E4C4;
 }
 .textoPagina1{
-   
-    width:50%;
-    margin-top:2%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left:5%;
+    width:50%;
+    padding-top:2%;
+    
     
    
 }
 .textoPagina1 p{
     width:100%;
     margin-top:0%;
-    font-size:22px;
+    font-size:18px;
 }
 .textoPagina1 h2{
     text-transform: uppercase;

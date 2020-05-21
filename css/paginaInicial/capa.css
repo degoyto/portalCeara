@@ -84,11 +84,7 @@
 .titulo img{
     width:50%;
 }
-.nav-item {
-    color: rgba(0,0,0,1);
-    text-transform: uppercase;
-    font-family:"bign"
-}
+
 @keyframes fadeIn{
     from{   
         opacity: 0;

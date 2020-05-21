@@ -14,10 +14,11 @@
         <title>Página Inicial - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
+
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/junte.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/ceara.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/mapaID.css"/>
         
         <link rel="stylesheet" href="css/geral/gallery.theme.css">
@@ -42,11 +43,25 @@
         <?php include("componente/geral/navbar.html") ?>
 
         <?php include("componente/PaginaInicial/capa.html") ?>
+        
         <?php include("componente/PaginaInicial/missao.html") ?>
-        <?php include("componente/PaginaInicial/missao2.html") ?>
-        <?php include("componente/PaginaInicial/junte.html") ?>
-        <?php include("componente/PaginaInicial/ceara.php") ?>
-        <?php include("componente/PaginaInicial/cidadesDestaque.php") ?>
+        <div>
+            <?php include("componente/PaginaInicial/cidadesDestaque.php") ?>
+
+        </div>
+        <div>
+            <?php include("componente/PaginaInicial/missao2.html") ?>
+
+        </div>
+        
+        <div class="container-flex">
+            <?php include("componente/PaginaInicial/ceara.php") ?>
+
+        </div>
+        <div>
+            <?php include("componente/PaginaInicial/junte.html") ?>
+        </div>
+        
         
     </body>
     

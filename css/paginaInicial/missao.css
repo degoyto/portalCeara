@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .divMissao{
     font-family: 'Roboto', sans-serif;
-    margin-top:50px;
+    padding-top:5%;
+    
 }
 .divMissao h1{
     text-align: center;
-    font-size:3.5vw;
+    font-size:40px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -19,7 +20,14 @@
 
 .imagemLogo{
     width: 50%;
-    margin-top:-5%;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding:5%;
 }
 .imagemLogo img{
     width: 100%;
@@ -29,8 +37,13 @@
    
     font-size:20px;
     width:50%;
-    
-    padding-top:6%;
+    margin-left:2%;
+   
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Missao2.html */
@@ -58,5 +71,5 @@
 }
 .missao2{
     padding-top:3%;
-    background:#EDD382;
+   
 }

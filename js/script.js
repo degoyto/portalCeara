@@ -7,7 +7,7 @@ var atual = 1;
 
     function abreGif(){
         document.getElementById("gifLogo").src = ""
-        document.getElementById("gifLogo").src = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/outros%2Flogo.gif?alt=media&token=efe6027e-9f19-4da4-b6c8-6b4353613d0e"
+        document.getElementById("gifLogo").src = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/outros%2FgifLogoOportal.gif?alt=media&token=c79034c6-03c7-4df4-be27-dd963bb0b02d"
         
         
         document.getElementById("textoCapa").classList.remove("fechaTudo");

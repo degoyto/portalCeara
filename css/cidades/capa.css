@@ -1,3 +1,7 @@
+@font-face {
+    font-family: bign;
+    src: url('../../font/bign.ttf');
+}
 .textosCapa{
     position: relative;
     z-index:100;
