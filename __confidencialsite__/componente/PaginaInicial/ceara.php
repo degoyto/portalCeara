@@ -211,13 +211,3 @@
 
     </div>
 </div>
-<script>
-    jQuery(window).load(function() {
- 
-    /*
-        Stop carousel
-    */
-    $('.carousel').carousel('pause');
-
-    });
-</script>

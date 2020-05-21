@@ -59,69 +59,25 @@ var atual = 1;
     
     abreProximoSlide();
     // mudar cor do mapa
-function selecionado(recebido){
-    duploClique++;
-    if (duploClique>=2){
-        redireciona();
-    }
-    else{
-        if (anterior === 0){
-        
-            document.getElementById(recebido.id).classList.add("st19");
-            document.getElementById(recebido.id).classList.add("ativado");
-            
-            
-        }
-        else{
-            
-            document.getElementById(anterior).classList.remove("st19");
-            
-            document.getElementById(anterior).classList.remove("ativado");
-    
-            
-            document.getElementById(recebido.id).classList.add("st19");
-            document.getElementById(recebido.id).classList.add("ativado");
-            
-        }
-    }
-    
-    
-    anterior = recebido.id;
-    
-}
+
 
 function mudarCor(recebido){
     
-    document.getElementById(recebido.id).classList.add("st19");
-    fechaDivInfo(anteriorHover)
-    abreDivInfo(recebido.id)
-    anteriorHover = recebido.id;
+    document.getElementById(recebido).classList.add("st19");
+    
+    anteriorHover = recebido;
 }
 
 function voltarCor(recebido){
-    duploClique = 0;
-    if (recebido.classList[2]!="ativado"){
-        document.getElementById(recebido.id).classList.remove("st19");
+    document.getElementById(recebido).classList.remove("st19");
         
-    }
+    
     
 }
 
-function abreDivInfo(idRecebido){
-    
-    
-    document.getElementById("cidade" + idRecebido).classList.remove("cidadeDesativada");
-    document.getElementById("cidade" + idRecebido).classList.add("cidadeAtivada");
-    
-}
-function fechaDivInfo(idRecebido){
-    
-    
-    document.getElementById("cidade"+idRecebido).classList.remove("cidadeAtivada");
-    document.getElementById("cidade"+idRecebido).classList.add("cidadeDesativada");
-   
-    
-}
+
+
+
 
 
 

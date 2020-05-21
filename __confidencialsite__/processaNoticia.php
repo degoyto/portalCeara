@@ -14,15 +14,7 @@
     $tituloSemAcento =  preg_replace( '/[`^~\'"]/', null, iconv( 'UTF-8', 'ASCII//TRANSLIT', $titulo ) );
     $tituloSemEspaco = preg_replace('<\W+>', "-", $tituloSemAcento); 
     $tituloConvertido = strtolower($tituloSemEspaco);
-    echo $tituloConvertido.'<br>';
-    echo $titulo."<br>";
-    echo $cidade."<br>";
-    
-    echo $linkImagem."<br>";
-    echo $legenda."<br>";
-    echo $resumo."<br>";
-    echo $conteudo."<br>";
-    echo $autor."<br>";
+   
 
     $sql = "INSERT INTO noticias (titulo, conteudo, resumo, foto, tituloConvertido, legenda, autor, cidade, createdAt, updatedAt) VALUES ('$titulo','$conteudo','$resumo', '$linkImagem','$tituloConvertido','$legenda','$autor', '$cidade', NOW(), NOW())";
     if (mysqli_query($connect, $sql)) {
