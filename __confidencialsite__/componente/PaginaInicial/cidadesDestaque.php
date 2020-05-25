@@ -1,4 +1,4 @@
-<div class="container-flex divMissao divDestaque" id="destaques">
+<div class="container-flex divMissao divDestaque" id="perfil">
 
     <h1>As Notícias e os 
         <br>perfis das cidades</h1>

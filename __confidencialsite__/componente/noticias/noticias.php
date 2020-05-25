@@ -33,7 +33,7 @@
             
         </div>
         <div class="filtrosNoticias">
-            <form method="POST" action="/portalceara/processaFiltro"  enctype="multipart/form-data" id="form-noticia">
+            <form method="POST" action="processaFiltro"  enctype="multipart/form-data" id="form-noticia">
                     
                     <select name="cidade" class="form-control" required style="margin-bottom:20px">
                         
@@ -64,7 +64,7 @@
                 while($exibeTodasNoticias = mysqli_fetch_assoc($resultTodasNoticias)){
                     $linkFotoNoticia = $exibeTodasNoticias['foto'];
                     $linkPaginaNoticia = "municipios/".$exibeTodasNoticias['tituloConvertido'];
-                    $linkPaginaCidade = "/portalceara/municipios/".$exibeTodasNoticias['cidade'];
+                    $linkPaginaCidade = "municipios/".$exibeTodasNoticias['cidade'];
                     echo 
                     "<div class='cadaNoticia'>
                         <div class='imagemNoticia' style=background-image:url('".$linkFotoNoticia."')></div>

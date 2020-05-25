@@ -6,7 +6,7 @@ $(document).ready(function(){
             var dados = $(this).serialize();
 
             $.ajax({
-                url: 'http://localhost/portalceara/pesquisaCidade',
+                url: 'http://felipehenrique.tk/pesquisaCidade',
                 method: 'post',
                 dataType: 'html',
                 data: dados,

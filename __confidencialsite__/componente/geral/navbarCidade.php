@@ -1,4 +1,4 @@
-<div class="container-flex barra-cima bg-light">
+<div class="container-flex barra-cima bg-light sombra">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <a class="navbar-brand" href="/home">
@@ -15,7 +15,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#inicio">Início <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/home">Página Inicial <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#cidade"><?php echo $exibe['nome']?></a>
@@ -24,10 +24,10 @@
               <a class="nav-link" href="#noticias">Notícias</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#ceara">Ceará</a>
+              <a class="nav-link" href="#eventos">Eventos</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#destaques">Municípios em Destaque</a>
+              <a class="nav-link" href="#classificados">Classificados</a>
           </li>
           
           

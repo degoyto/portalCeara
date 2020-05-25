@@ -50,7 +50,7 @@
             <?php include("componente/municipios/noticia.php") ?>  
 
         </div>
-        
+        <?php include("componente/geral/rodape.php") ?>  
         
         
     </body>

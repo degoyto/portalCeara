@@ -36,7 +36,7 @@
                 <b>Mesorregião:</b> <?php echo $exibe['mesorregiao'] ?><br><br>
                 <b>Microrregião:</b> <?php echo $exibe['microrregiao'] ?><br><br>
                 <b>Área:</b> <?php echo $exibe['area'] ?> km²<br><br>
-                <b>População:</b> <?php echo $exibe['populacao'].' habitantes' ?>  <br><br>
+                <b>População em 2019 estimada pelo IBGE:</b> <?php echo $exibe['populacao'].' habitantes' ?>  <br><br>
                 <b>Municípios Limitrófes:</b> <?php echo $exibe['limite'] ?> <br><br>
                 <b>Aniversário da Cidade:</b> <?php  echo data($exibe['aniversario']) ?> <br><br>
         
