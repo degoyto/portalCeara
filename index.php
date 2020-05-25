@@ -5,6 +5,7 @@
     //$REQUEST_URI = filter_input(INPUT_SERVER, 'REQUEST_URI');
     $REQUEST_URI = $_SERVER['REQUEST_URI'];
     $INITE = strpos($REQUEST_URI, "?");
+    $idAnterior = 0;
     if($INITE){
         $REQUEST_URI = substr($REQUEST_URI, 0, $INITE);
     }
@@ -19,7 +20,52 @@
         include("__confidencialsite__/api/pegaCidade.php");
 
     }
+    
     if(file_exists('__confidencialsite__/'.$URL[0].".php")){
+        if ($URL[0] == "noticia" && !isset($URL[1]) || !isset($URL[2])){
+            require ('__confidencialsite__/404.php');
+            
+        }
+        if ($URL[0] == "noticia" && isset($URL[2])){
+            include("__confidencialsite__/api/pegaNoticiaPorId.php");
+            
+            if (is_numeric($URL[2]) && !isset($URL[3])){
+                $idRecebidoNoticiaPorId = $URL[2];
+                $exibeNoticiaPorId = pegaTudoNoticiaPorId($connect, $idRecebidoNoticiaPorId);
+                $nomeCruNoticiaPorId = pegaCidadeNoticiaPorId($connect, $exibeNoticiaPorId['cidade']);
+                header("Location: /portalceara/noticia/".$nomeCruNoticiaPorId."/".$exibeNoticiaPorId['id']."/".$exibeNoticiaPorId['tituloConvertido']);
+                exit();
+
+             }
+             else{
+                $exibeNoticiaPorId = pegaTudoNoticiaPorId($connect, $URL[2]);
+                $nomeCruNoticiaPorId = pegaCidadeNoticiaPorId($connect, $exibeNoticiaPorId['cidade']);
+                
+                if ($URL[3] == $exibeNoticiaPorId['tituloConvertido'] ){
+                    require ('__confidencialsite__/'.$URL[0].".php");
+                    
+                }
+                else{
+                    
+                    header("Location: /portalceara/noticia/".$nomeCruNoticiaPorId."/".$exibeNoticiaPorId['id']."/".$exibeNoticiaPorId['tituloConvertido']);
+                    exit();
+                }
+                
+                
+                
+             }
+             
+           
+            
+        }
+        
+        // if ($URL[0] == "noticia" && is_numeric($URL[1])){
+        //     $idRecebidoNoticiaPorId = $URL[1];
+        //     include("__confidencialsite__/api/pegaNoticiaPorId.php");
+        //     header("Location:".$nomeCruNoticiaPorId."/".$exibeNoticiaPorId['id']."/".$exibeNoticiaPorId['tituloConvertido']);
+
+        //     require ('__confidencialsite__/404.php');
+        // }
         if ($URL[0] == "municipios" && !isset($URL[1])){
             require ('__confidencialsite__/404.php');
         }
@@ -46,19 +92,22 @@
             }
             
         }
-        if($URL[0]!= "municipios"){
+        if($URL[0]!= "municipios" && $URL[0]!= "noticia" ){
+            
             require ('__confidencialsite__/'.$URL[0].".php");
         }
 
         
         
     }
-    elseif (is_dir('__confidencialsite__/'.$URL[0])) {
+    if (is_dir('__confidencialsite__/'.$URL[0])) {
         if($URL[0]=='api' or $URL[0]=='assets' or $URL[0]=='componente' or $URL[0]=='css'){
             require ('__confidencialsite__/404.php');
         }
     }
-    else{
+
+    if(!file_exists('__confidencialsite__/'.$URL[0].".php")){
+       
         require ('__confidencialsite__/404.php');
     }
     
