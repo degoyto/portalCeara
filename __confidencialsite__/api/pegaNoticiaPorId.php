@@ -22,10 +22,10 @@
     
     function pegaCidadeNoticiaPorId($connect, $idRecebido){
         mysqli_set_charset($connect ,"utf8");
-        $resultTodasNoticias = mysqli_query($connect, "SELECT nomecru FROM cidades where id=$idRecebido");
+        $resultTodasNoticias = mysqli_query($connect, "SELECT nomecru, nome FROM cidades where id=$idRecebido");
         mysqli_error($connect);
         $exibeTodasNoticias = mysqli_fetch_assoc($resultTodasNoticias);
-        return $exibeTodasNoticias['nomecru'];
+        return $exibeTodasNoticias;
     }
     function verificaSeTemNoBancoNoticiaPorId($connect, $nomeRecebido){
         mysqli_set_charset($connect ,"utf8");

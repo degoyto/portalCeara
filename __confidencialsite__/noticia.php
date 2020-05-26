@@ -1,8 +1,8 @@
 <?php 
     
-    $exibeNoticiaPorId = pegaTudoNoticiaPorId($connect, $URL[2]);
+    include("api/pegaNoticiaPorId.php");
+    $exibeNoticiaPorId = pegaTudoNoticiaPorId($connect, $URL[1]);
     
-   
 
   
 
@@ -25,15 +25,14 @@
         </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         
-        
+        <link type="text/css" rel="stylesheet" href="css/noticias/noticia.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/noticia/noticia.css"/>
         
         
         
         <link type="text/css" rel="stylesheet" href="../css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
         <link type="text/css" rel="stylesheet" href="../css/geral/navbar.css"/>
-        <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
-        <link type="text/css" rel="stylesheet" href="../css/geral/rodape.css"/>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         
 
@@ -52,8 +51,11 @@
     
     
     <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v7.0"></script>
         <?php include('componente/geral/navbarNoticia.php') ?>
         <?php include('componente/noticia/noticiaComponente.php') ?>
+        
         <?php include('componente/geral/rodape.php') ?>
        
        
