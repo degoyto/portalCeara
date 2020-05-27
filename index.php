@@ -1,6 +1,6 @@
 <?php 
     include("__confidencialsite__/api/converteNome.php");
-    session_start();
+    
 
     //$REQUEST_URI = filter_input(INPUT_SERVER, 'REQUEST_URI');
     $REQUEST_URI = $_SERVER['REQUEST_URI'];
@@ -22,51 +22,7 @@
     }
     
     if(file_exists('__confidencialsite__/'.$URL[0].".php")){
-        // if ($URL[0] == "noticia" && !isset($URL[1]) && !isset($URL[2])){
-        //     require ('__confidencialsite__/404.php');
-            
-        // }
-        // if ($URL[0] == "noticia" && isset($URL[2])){
-        //     include("__confidencialsite__/api/pegaNoticiaPorId.php");
-            
-        //     if (is_numeric($URL[2]) && !isset($URL[3])){
-        //         $idRecebidoNoticiaPorId = $URL[2];
-        //         $exibeNoticiaPorId = pegaTudoNoticiaPorId($connect, $idRecebidoNoticiaPorId);
-        //         $nomeCruNoticiaPorId = pegaCidadeNoticiaPorId($connect, $exibeNoticiaPorId['cidade']);
-        //         $_SESSION['idnoticia'] = $URL[2];
-        //         header("Location: /portalceara/noticia/".$nomeCruNoticiaPorId."/".$exibeNoticiaPorId['id']."/".$exibeNoticiaPorId['tituloConvertido']);
-        //         exit();
-
-        //      }
-        //      else{
-        //         $exibeNoticiaPorId = pegaTudoNoticiaPorId($connect, $URL[2]);
-        //         $nomeCruNoticiaPorId = pegaCidadeNoticiaPorId($connect, $exibeNoticiaPorId['cidade']);
-                
-        //         if ($URL[3] == $exibeNoticiaPorId['tituloConvertido'] ){
-        //             require ('__confidencialsite__/'.$URL[0].".php");
-                    
-        //         }
-        //         else{
-                    
-        //             header("Location: /portalceara/noticia/".$nomeCruNoticiaPorId."/".$exibeNoticiaPorId['id']."/".$exibeNoticiaPorId['tituloConvertido']);
-        //             exit();
-        //         }
-                
-                
-                
-        //      }
-             
-           
-            
-        // }
         
-        // if ($URL[0] == "noticia" && is_numeric($URL[1])){
-        //     $idRecebidoNoticiaPorId = $URL[1];
-        //     include("__confidencialsite__/api/pegaNoticiaPorId.php");
-        //     header("Location:".$nomeCruNoticiaPorId."/".$exibeNoticiaPorId['id']."/".$exibeNoticiaPorId['tituloConvertido']);
-
-        //     require ('__confidencialsite__/404.php');
-        // }
         if ($URL[0] == "municipios" && !isset($URL[1])){
             require ('__confidencialsite__/404.php');
         }

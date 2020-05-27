@@ -7,7 +7,7 @@
 
             while ($exibePrincipais = mysqli_fetch_assoc($principais)){
                 $linkImg = $exibePrincipais['foto'];
-                $linkNoticia = "/portalceara/noticias/".$URL[1]."/".$exibePrincipais['id'];
+                $linkNoticia = "/portalceara/noticia/".$exibePrincipais['id'];
             
                 echo 
                 "<a class='linkNoticia' href='".$linkNoticia."'>
@@ -22,6 +22,15 @@
                 </a>";
             
             };
+            if (mysqli_num_rows($principais)>=6){
+                echo "
+
+                    <div class='divVejaMais'>
+                        <a href='/portalceara/noticias/".$exibe['nomecru']."'>Veja todas as notícia de ". $exibe['nome']."</a>
+
+                    </div>";
+            }
+            
         ?>
         
         

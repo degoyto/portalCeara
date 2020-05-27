@@ -15,12 +15,7 @@
         <?php include("componente/headGeral.php")?>
         <title>
             <?php
-                if (!isset($URL[1])){
-                    echo "Notícias do Ceará";
-                }
-                else{
-                    echo "Notícias de ".$URL[1]."";
-                }
+                echo $exibeNoticiaPorId['titulo'];
             ?>
         </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>

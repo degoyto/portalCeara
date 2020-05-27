@@ -1,6 +1,9 @@
 <?php 
     include("api/pegaCidade.php");
+    
+
     include("api/novasNoticias.php");
+    include("api/novosEventos.php");
 
   
 
@@ -16,6 +19,7 @@
         <link type="text/css" rel="stylesheet" href="../css/cidades/capa.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/info.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/noticias.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/cidades/evento.css"/>
         
         
         
@@ -48,6 +52,10 @@
         </div> 
         <div class="container-flex" id="noticias">
             <?php include("componente/municipios/noticia.php") ?>  
+
+        </div>
+        <div class="container-flex" id="eventos">
+            <?php include("componente/municipios/evento.php") ?>  
 
         </div>
         <?php include("componente/geral/rodape.php") ?>  

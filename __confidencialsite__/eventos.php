@@ -1,11 +1,9 @@
 <?php 
-    session_start();
-    include("api/verifica_login.php");
-    include("api/pegaTodasCidades.php");  
+    
+    include("api/pegaTodosEventos.php");
+    include("api/pegaTodasCidades.php");
 
-
-
-
+  
 
 
 ?>
@@ -14,21 +12,37 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title>Painel - O Portal do Ceará </title>
+        <title>
+            <?php
+                if (!isset($URL[1])){
+                    echo "Eventos no Ceará";
+                }
+                else{
+                    echo "Eventos em ".$URL[1]."";
+                }
+            ?>
+        </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
-        <link type="text/css" rel="stylesheet" href="css/adm/cidadeAdm.css"/>
+        
+        <link type="text/css" rel="stylesheet" href="css/noticias/noticias.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/noticias/noticias.css"/>
         
         
-        <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
+        
+        <link type="text/css" rel="stylesheet" href="../css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="css/geral/navbar.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/geral/navbar.css"/>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+        
 
         
         <style>
             body{
+                
                 font-family: 'Roboto', sans-serif;
             }
+            
+
     
         </style>
 
@@ -36,17 +50,15 @@
     
     
     <body>
-        <?php //include("componente/geral/navbar.html") ?>
-
-       <h1>Bem Vindo <?php echo $_SESSION['usuario']; ?></h1>
-        <a href="cadastro_cidade"> cadastro de cidades</a><br>
-        <a href="cadastro-noticia-cidade"> cadastro de notícias</a><br>
-        <a href="cadastro-evento-cidade"> cadastro de eventos</a><br>
-        <a href="ver-noticias"> ver notícias</a><br>
-        <div class="container">
-            <?php include("componente/adm/cidadesAdm.php") ?>
+        <?php include('componente/geral/navbarNoticia.php') ?>
+       
+       
+        <div class="container" id="noticias">
+            
+            <?php include('componente/eventos/eventos.php') ?>
         </div>
-        <a href="logout"> Sair</a>
+        
+        
         
     </body>
     
