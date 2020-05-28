@@ -9,7 +9,13 @@
     mysqli_set_charset($connect,"utf8");
     $resultTodasCidades = mysqli_query($connect, "SELECT * FROM cidades ORDER BY nome ASC");
     
-    
+    function pegaCidadeNoticiaPrincipal($connect, $idRecebido){
+        mysqli_set_charset($connect ,"utf8");
+        $resultTodasNoticias = mysqli_query($connect, "SELECT nomecru, nome FROM cidades where id=$idRecebido");
+        mysqli_error($connect);
+        $exibeTodasNoticias = mysqli_fetch_assoc($resultTodasNoticias);
+        return $exibeTodasNoticias;
+    }
     
    
 ?>

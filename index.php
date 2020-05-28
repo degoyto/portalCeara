@@ -9,8 +9,8 @@
     if($INITE){
         $REQUEST_URI = substr($REQUEST_URI, 0, $INITE);
     }
-    //$REQUEST_URI_PASTA = substr($REQUEST_URI, 13);
-    $REQUEST_URI_PASTA = substr($REQUEST_URI, 1);
+    $REQUEST_URI_PASTA = substr($REQUEST_URI, 13);
+    //$REQUEST_URI_PASTA = substr($REQUEST_URI, 1);
 
     $URL = explode("/", $REQUEST_URI_PASTA);
     if ($URL[0] == ''){

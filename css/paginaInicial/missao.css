@@ -19,7 +19,7 @@
 }
 
 .imagemLogo{
-    width: 50%;
+    width: 40%;
     
     align-items: center;
     display: flex;
@@ -36,15 +36,65 @@
 .textoPortal{
    
     font-size:20px;
-    width:50%;
+    width:60%;
     margin-left:2%;
-   
+    margin-top:5%;
     align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
+.textoNoticiaPrincipal{
+    font-size:20px;
+    width:60%;
+    margin-left:2%;
+    margin-top:5%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 600px;
+    overflow: auto;
+}
+
+.textoNoticiaPrincipal::-webkit-scrollbar {
+    width: 10px;
+  }
+.noticiaImagemPrincipal{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    margin-top:5%;
+}
+.noticiaImagemPrincipal img{
+    width:60%
+}
+.textoNoticiaPrincipal a{
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.textoNoticiaPrincipal h1{
+    font-size: 22px;
+    text-align: left;
+}
+.textoNoticiaPrincipal h2{
+    font-size: 16px;
+    text-align: left;
+    margin-top:5%;
+}
+.textoNoticiaPrincipal p{
+    font-size: 16px;
+    text-align: left;
+    margin-top:5%;
+}
+
 
 /* Missao2.html */
 .textoMissao2{

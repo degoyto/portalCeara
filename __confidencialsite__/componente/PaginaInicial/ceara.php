@@ -1,4 +1,4 @@
-<div class="container-flex" id="oceara">
+<div class="container-flex paginaCeara" >
     <div id="carouselExampleControls" class="carousel slide carouselCeara" data-ride="carousel" data-interval="false">
         <div class="container-flex carousel-inner">
             <div class="carousel-item carouselItemCeara cor1 container-flex active">

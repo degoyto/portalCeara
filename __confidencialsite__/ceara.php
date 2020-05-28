@@ -15,13 +15,11 @@
         <?php include("componente/headGeral.php")?>
         <title>Página Inicial - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
+        
 
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/junte.css"/>
+        
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/ceara.css"/>
-        <link type="text/css" rel="stylesheet" href="css/paginaInicial/mapaID.css"/>
+        
         
         <link rel="stylesheet" href="css/geral/gallery.theme.css">
         <link rel="stylesheet" href="css/geral/gallery.min.css">
@@ -45,30 +43,14 @@
     
     <body>
         <?php include("componente/geral/navbar.html") ?>
-        <div id='inicio'>
-            <?php include("componente/PaginaInicial/capa.html") ?>
-
-        </div>
-        <div id="hoje">
-            <?php include("componente/PaginaInicial/noticiaHoje.php") ?>
-
-        </div>
-        <div id="perfil">
-            <?php include("componente/PaginaInicial/cidadesDestaque.php") ?>
-
-        </div>
-        <div id="correspondentes">
-            <?php //include("componente/PaginaInicial/missao2.html") ?>
+        
+        
+        
+        <div class="container-flex">
+            <?php include("componente/PaginaInicial/ceara.php") ?>
 
         </div>
         
-        <div class="container-flex">
-            <?php //include("componente/PaginaInicial/ceara.php") ?>
-
-        </div>
-        <div>
-            <?php //include("componente/PaginaInicial/junte.html") ?>
-        </div>
         <div>
             <?php include("componente/geral/rodape.php") ?>
         </div>
