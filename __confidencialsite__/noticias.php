@@ -58,7 +58,7 @@
             <?php include('componente/noticias/noticias.php') ?>
         </div>
         
-        
+        <?php include('componente/geral/rodape.php') ?>
         
     </body>
     

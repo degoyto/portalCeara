@@ -33,7 +33,7 @@
             
         </div>
         <div class="filtrosNoticias">
-            <form method="POST" action="processaFiltro"  enctype="multipart/form-data" id="form-noticia">
+            <form method="POST" action="/processaFiltro"  enctype="multipart/form-data" id="form-noticia">
                     
                     <select name="cidade" class="form-control" required style="margin-bottom:20px">
                         

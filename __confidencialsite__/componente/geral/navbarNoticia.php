@@ -1,7 +1,7 @@
 <div class="container-flex barra-cima bg-light naoFixo sombra">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="home">
+        <a class="navbar-brand" href="/home">
             <img src="https://firebasestorage.googleapis.com/v0/b/bird-9fcef.appspot.com/o/logoEmLinha2.png?alt=media&token=9f8ac9fa-e5d0-4a9a-9af6-f7a5c5112a8e" width="300" height="50" class="d-inline-block align-top" alt="">
        
         </a>
@@ -18,16 +18,16 @@
             <a class="nav-link" href="home">Página Inicial<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="noticias">Notícias</a>
+            <a class="nav-link" href="/noticias">Notícias</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#noticias">Eventos</a>
+              <a class="nav-link" href="/eventos">Eventos</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#ceara">Classificados</a>
+              <a class="nav-link" href="/classificados">Classificados</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="contato">Contato</a>
+              <a class="nav-link" href="/contato">Contato</a>
           </li>
           
           

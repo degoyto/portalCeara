@@ -36,7 +36,7 @@
                 echo "
 
                     <div class='divVejaMais'>
-                        <a href='/portalceara/noticia/".$exibe['nomecru']."'>Veja todas as notícia de ". $exibe['nome']."</a>
+                        <a href='/eventos/".$exibe['nomecru']."'>Veja todos os eventos de ". $exibe['nome']."</a>
 
                     </div>";
             }
