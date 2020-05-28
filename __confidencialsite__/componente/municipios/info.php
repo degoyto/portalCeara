@@ -32,7 +32,7 @@
             <p><br>
                 <?php echo $exibe['resumo'] ?>
             </p>
-            <p><br><br>
+            <p><br>
                 <b>Mesorregião:</b> <?php echo $exibe['mesorregiao'] ?><br><br>
                 <b>Microrregião:</b> <?php echo $exibe['microrregiao'] ?><br><br>
                 <b>Área:</b> <?php echo $exibe['area'] ?> km²<br><br>

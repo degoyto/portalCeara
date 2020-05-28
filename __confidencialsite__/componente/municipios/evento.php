@@ -14,7 +14,7 @@
                 $linkEvento = "/portalceara/evento/".$exibePrincipais['id'];
             
                 echo 
-                "<a class='linkEvento' href='".$linkEvento."'>
+                "
                     <div class='cadaEvento'>
                         <div class='imgEvento' style=background-image:url('".$linkImg."')>
     
@@ -29,7 +29,7 @@
                             
                         </div>
                     </div>
-                </a>";
+                ";
             
             };
             if (mysqli_num_rows($principaisEventos)>=3){

@@ -7,7 +7,7 @@ var atual = 1;
 
     function abreGif(){
         document.getElementById("gifLogo").src = ""
-        document.getElementById("gifLogo").src = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/outros%2FgifLogoOportal.gif?alt=media&token=c79034c6-03c7-4df4-be27-dd963bb0b02d"
+        document.getElementById("gifLogo").src = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/outros%2FapresentacaoPortal.gif?alt=media&token=8b50c13c-8b7e-4ab7-96d9-c0dcd10a5326"
         
         
         document.getElementById("textoCapa").classList.remove("fechaTudo");
@@ -30,7 +30,7 @@ var atual = 1;
             
             
             abreProximoSlide();
-        }, 8800 );
+        }, 18000 );
 
         
     }
