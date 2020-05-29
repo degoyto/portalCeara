@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
+    <head><meta charset="gb18030">
         <?php include("componente/headGeral.php")?>
         <title>Repórteres e Correspondentes - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
@@ -43,7 +43,7 @@
        
         
         <div id="correspondentes">
-            <?php include("componente/PaginaInicial/missao2.html") ?>
+            <?php include("componente/PaginaInicial/junte.html") ?>
 
         </div>
         

@@ -22,6 +22,7 @@
     color: rgba(0,0,0,1);
     text-transform: uppercase;
     text-align: center;
+    line-height:18px;
 }
 
 .nav-item a{

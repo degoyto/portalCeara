@@ -31,16 +31,22 @@
 
                     echo "
                         <div class='noticiaPrincipal'>
-                            <a href='municipios/".$cidade['nomecru']."'>".$cidade['nome']."</a>
-                            <h1>".$exibeTodasCidades['titulo']."</h1>
-                            <h2>".$exibeTodasCidades['autor']."<br>".data($exibeTodasCidades['createdAt'])."</h2>
                             <div class='noticiaImagemPrincipal'>
-                                <img src ='".$exibeTodasCidades['foto']."'/>
-                                    
+                               <a href='noticia/".$exibeTodasCidades['id']."'> <img src ='".$exibeTodasCidades['foto']."'/></a>
+                            </div>
+                            <div class='manchete'>
+                                <div>
+                                    <a href='municipios/".$cidade['nomecru']."'><h3>".$cidade['nome']."</h3></a>
+                                    <a href='noticia/".$exibeTodasCidades['id']."'><h1>".$exibeTodasCidades['titulo']."</h1></a>
+                                </div>
+                                <div>
+                                    <a href='noticia/".$exibeTodasCidades['id']."'><h2>".$exibeTodasCidades['autor']." - ".data($exibeTodasCidades['createdAt'])."</h2></a>
 
+                                </div>
+                                
                                 
                             </div>
-                            <p>".$exibeTodasCidades['conteudo']."</p>
+                            
                         </div>
                     ";
                     
