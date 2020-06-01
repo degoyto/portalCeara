@@ -10,13 +10,15 @@
     z-index:100;
     align-items: center;
     text-align: center;
+    display:flex;
+    justify-content: center;
     padding-top:5%;
     height:100vh;
     width:100%;
     background-color: white;
 }
 .textosCapa img{
-    width:75%;
+    width:100%;
 }
 .item-capa{
     height:100vh;
@@ -137,4 +139,9 @@
 } */
 .fechaTudo{
     display: none;
+}
+@media screen and (min-width: 992px){
+    .textosCapa img{
+        width:75%;
+    }
 }
