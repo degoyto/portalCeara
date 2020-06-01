@@ -70,7 +70,7 @@
             <?php //include("componente/PaginaInicial/junte.html") ?>
         </div>
         <div>
-            <?php include("componente/geral/rodape.php") ?>
+            <?php //include("componente/geral/rodape.php") ?>
         </div>
         
         

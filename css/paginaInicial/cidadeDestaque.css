@@ -7,26 +7,29 @@
 
 .mapaCidade{
     display: flex;
+    flex-direction: column;
     position:relative;
     margin-top:2%;
     padding-bottom: 5%;
 }
 .mapSvg{
-    width:50%;
-     
+    width:100%;
     
-    
+    overflow: auto;
+    overflow: hidden;
 }
 .mapSvg svg{
     margin-top:10%; 
-    width:120%;
+    width:100%;
+    
+    margin-left:20%;
 }
 
 
 /* texto */
 
 .linksCidades{
-    width:50%;
+    width:100%;
     
 }
 .barraPesquisa{
@@ -34,7 +37,8 @@
     
 }
 .barraPesquisa input{
-    width:80%;
+    margin-top:8%;
+    width:100%;
 }
 .barraPesquisa button{
     width:20%;
@@ -54,20 +58,35 @@
 }
 .tabelaNomeCidade li a{
     text-decoration: none;
-    color:black
+    color:black;
+    font-size:12px;
 }
 .tabelaNomeCidade li a:hover{
     
     color:blue;
 }
 
-@keyframes fadeIn{
-    from{   
-        opacity: 0;
+@media screen and (min-width: 992px){
+    .mapaCidade{
+        flex-direction: row;
+    }
+    .mapSvg{
+        width:50%;
+         
+        
         
     }
-    to{
-        opacity: 1;
+    .mapSvg svg{
+        margin-top:10%; 
+        width:120%;
         
+        margin-left:0%;
+    }
+    .linksCidades{
+        width:50%;
+    }
+    .tabelaNomeCidade li a{
+        
+        font-size:16px;
     }
 }
