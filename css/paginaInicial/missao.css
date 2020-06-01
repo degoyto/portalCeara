@@ -6,35 +6,35 @@
 }
 .divMissao h1{
     text-align: center;
-    font-size:40px;
+    font-size:30px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    margin-bottom:2%;
+    margin-top:5%;
 }
 .conteudo{
     display: flex;
-    
-    padding-bottom:50px;
+    flex-direction: column-reverse;
+    padding-bottom:5%;
     
 }
-
 .imagemLogo{
-    width: 40%;
-    
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    padding:5%;
+        width:100%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        padding:5%;
 }
 .imagemLogo img{
-    width: 100%;
+    width: 50%;
 }
 
 .textoPortal{
-   
+    
     font-size:20px;
     width:100%;
     margin-left:2%;
@@ -46,9 +46,10 @@
     
     
 }
+
 .textoNoticiaPrincipal{
     font-size:20px;
-    width:60%;
+    width:100%;
     display: flex;
     flex-wrap: wrap;
     
@@ -56,7 +57,6 @@
     margin-top:5%;
     
 }
-
 .noticiaPrincipal{
     display:flex;
     margin-bottom: 3%;
@@ -84,18 +84,18 @@
     
 }
 .textoNoticiaPrincipal h3{
-    font-size: 12px;
+    font-size: 2vw;
     text-align: left;
     text-transform: uppercase;
     color:blue;
-    
+    margin-bottom: -2%;
 }
 .textoNoticiaPrincipal h1{
-    font-size: 18px;
+    font-size: 3vw;
     text-align: left;
 }
 .textoNoticiaPrincipal h2{
-    font-size: 14px;
+    font-size: 2vw;
     text-align: left;
     
 }
@@ -104,8 +104,9 @@
 }
 
 
-/* Missao2.html */
-.textoMissao2{
+
+ /* Missao2.html */
+ .textoMissao2{
     display: flex;
 }
 .textoMissao2 p{
@@ -129,5 +130,52 @@
 }
 .missao2{
     padding-top:8%;
+
+}
+
+@media screen and (min-width: 992px){
+    .divMissao h1{
+        font-size:40px;
+        margin-bottom:0%;
+       
+    }
+    
+    .conteudo{
+        
+        flex-direction: row;
+    }
+
+    .imagemLogo{
+        width: 40%;
+        
+    }
+    
+    .imagemLogo img{
+        width:100%
+    }
+    
+    .textoNoticiaPrincipal{  
+        width:60%; 
+    }
+    .textoNoticiaPrincipal h3{
+        font-size: 12px;
+        text-align: left;
+        text-transform: uppercase;
+        color:blue;
+        
+    }
+    .textoNoticiaPrincipal h1{
+        font-size: 20px;
+        text-align: left;
+    }
+    .textoNoticiaPrincipal h2{
+        font-size: 14px;
+        text-align: left;
+        
+    }
+
+   
+
+
    
 }

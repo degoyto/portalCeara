@@ -1,3 +1,20 @@
+@media screen and (max-width: 992px){
+    .navbar-brand{
+        width:60%;
+        background-color: pink;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    
+
+}
+
+
+
+
+
+
 
 .barra-cima{
     position:fixed;
