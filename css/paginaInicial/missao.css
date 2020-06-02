@@ -106,12 +106,22 @@
 
 
  /* Missao2.html */
+ .conteudo2{
+    margin-top:10%;
+}
+.missao2{
+    padding-top:20%;
+
+}
  .textoMissao2{
     display: flex;
+    flex-direction: column-reverse;
+    margin-bottom:10%;
 }
 .textoMissao2 p{
-    width:50%;
-    font-size:22px;
+    width:100%;
+    font-size:14px;
+    margin-top: 15%;
 }
 .imagemLogo2{
     align-items: center;
@@ -119,19 +129,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width:50%;
-    margin-left:5%;
+    width:100%;
+    
 }
 .imagemLogo2 img{
-    width:100%;
+    width:80%;
 }
-.conteudo2{
-    margin-top:5%;
-}
-.missao2{
-    padding-top:8%;
 
-}
 
 @media screen and (min-width: 992px){
     .divMissao h1{
@@ -173,9 +177,32 @@
         text-align: left;
         
     }
-
-   
-
-
+     /* Missao2.html */
+     .conteudo2{
+        margin-top:2%;
+    }
+    .missao2{
+        padding-top:2%;
+    
+    }
+    .textoMissao2{
+        display: flex;
+        flex-direction: row;
+    }
+    .textoMissao2 p{
+        width:50%;
+        font-size:22px;
+       margin-top:0;
+    }
+    .imagemLogo2{
+        width:50%;   
+        margin-left:15%;
+    }
+    .textoMissao2{
+        margin-top: 5%;
+    }
+    .imagemLogo2 img{
+        width:100%
+    }
    
 }
