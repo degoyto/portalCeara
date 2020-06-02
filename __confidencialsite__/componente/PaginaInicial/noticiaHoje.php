@@ -8,7 +8,10 @@
        
         $datinha = $data;
         $dataP = explode('-', $data);
-        $dataParaExibir = $dataP[2].'/'.$dataP[1].'/'.$dataP[0];
+        
+        $dia = explode(' ', $dataP[2]);
+        
+        $dataParaExibir = $dia[0].'/'.$dataP[1].'/'.$dataP[0].' - '.$dia[1];
         return $dataParaExibir;
         
         
@@ -26,7 +29,7 @@
         <div class="textoNoticiaPrincipal">
             <?php 
                 while($exibeTodasCidades = mysqli_fetch_assoc($noticiaPrincipal)){
-                    $cidade = pegaCidadeNoticiaPrincipal($connect, $exibeTodasCidades['id']);
+                    $cidade = pegaCidadeNoticiaPrincipal($connect, $exibeTodasCidades['cidade']);
                     
 
                     echo "
@@ -36,7 +39,7 @@
                             </div>
                             <div class='manchete'>
                                 <div>
-                                    <a href='municipios/".$cidade['nomecru']."'><h3>".$cidade['nome']."</h3></a>
+                                    <a href='municipios/".$exibeTodasCidades['cidade']."'><h3>".$cidade['nome']."</h3></a>
                                     <a href='noticia/".$exibeTodasCidades['id']."'><h1>".$exibeTodasCidades['titulo']."</h1></a>
                                 </div>
                                 <div>

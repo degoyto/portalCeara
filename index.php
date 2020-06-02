@@ -29,7 +29,13 @@
 
         if ($URL[0] == "municipios" && is_numeric($URL[1])){
             if(mysqli_num_rows($result) > 0){
-                header("Location:".$exibe['nomecru']);
+                if ($URL[1] == 0){
+                    header("Location:/".$exibe['nomecru']);
+                }
+                else{
+                   header("Location:".$exibe['nomecru']); 
+                }
+                
                 exit();
             }
             else{
