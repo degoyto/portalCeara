@@ -1,5 +1,5 @@
 .paginaCeara{
-    padding-top:5%;
+    padding-top:20%;
 }
 
 .imgMapa{
@@ -7,15 +7,6 @@
 }
 .imgMapa {
     width:100%;
-}
-.textoCeara{
-    width:80%;
-    
-}
-.textoCeara img{
-    width:50%;
-    margin-left:-35%;
-    margin-top:10%;
 }
 #ceara{
     font-family: 'Roboto', sans-serif;
@@ -26,34 +17,30 @@
 .carousel-control-next-icon {
   height: 100px;
   width: 100px;
-  
   background-size: 100%, 100%;
-  
-  
   background-image: none;
 }
 
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 3vw;
+  font-size: 10vw;
   color: black;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 3vw;
+  font-size: 10vw;
   color: black;
 }
 
 .conteudoPaginas{
     display:flex;
-    height:80vh;
-    min-height:500px;
-    max-height:1000px;
+    flex-direction: column;
+    padding:10%;
 }
 .imgPagina1{
-    width:50%;
+    width:100%;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -62,63 +49,59 @@
     
 }
 .imgPagina1 img{
-    width:100%;
+    width:90%;
 }
 
 .carouselItemCeara{
-   
-    
     width:100vw;
-    padding-bottom:2%;
-    
-    
-    
+    padding-bottom:2%; 
 }
-.cor2{
-    background-color: #FFF;
-}
-.cor1{
-    background-color: #FFF;
-}
-.cor3 {
-    background-color: #FFF;
-}
+
 .textoPagina1{
     align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left:5%;
-    width:50%;
-    padding-top:2%;
     
-    
-   
+    width:100%;
+    margin-top:15%;
 }
 .textoPagina1 p{
-    width:100%;
+    
     margin-top:0%;
     font-size:18px;
 }
 .textoPagina1 h2{
     text-transform: uppercase;
     text-align: center;
-    
     font-weight:600;
 }
 
-.imgJaguaribe img{
-    width:88%;
-    margin-top:5%;
+@media screen and (min-width: 992px){
+    .paginaCeara{
+        padding-top:5%;
+    }
+    .conteudoPaginas{
+        padding:0;
+        flex-direction: row;
+        height:80vh;
+        min-height:500px;
+        max-height:1000px;
+        
+    }
+    .carousel-control-next-icon:after
+    {
+    
+        font-size: 3vw;
+    
+    }
+
+    .carousel-control-prev-icon:after {
+        font-size: 3vw;
+    }
+    .textoPagina1{
+        margin-top:0%;
+    }
+
 }
-.imgCentro img{
-    margin-top:5%;
-    width:80%;
-}
-
-
-
-/* .cearadiv{
-    padding-top:10%;
-} */
