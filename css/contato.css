@@ -1,7 +1,9 @@
 .contato{
     padding-top:1%;
     display: flex;
+    flex-direction: column-reverse;
     margin-bottom:5%;
+    margin-top:5%;
 }
 .tituloContato{
     margin-top:5%;
@@ -10,10 +12,10 @@
 }
 .textoContato{
     margin-top:1%;
-    width:50%;
+    width:100%;
 }
 .imagemContato{
-    width:50%;
+    width:100%;
     
     align-items: center;
     display: flex;
@@ -30,5 +32,23 @@
     margin-top:10%;
 }
 .contatos p{
-    font-size:22px;
+    font-size:14px;
+}
+@media screen and (min-width: 992px){
+    .contato{
+        flex-direction: row;
+    }
+    .contatos{
+        margin-top:0%;
+    }
+    .textoContato{
+        width:50%;
+    }
+    .imagemContato{
+        width:50%;
+    }
+    .contatos p{
+        font-size:22px;
+    }
+    
 }
