@@ -1,12 +1,40 @@
 .divJunte{
     
-    padding-top:10%;
+    padding-top:20%;
+   
 }
-
+.conteudoJunte{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.textoPortal{
+    width:100%;
+}
 .imagemJunte{
-    padding-top:50px;
-    padding-left:100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding:0;
 }
 .imagemJunte img{
-    width:100%;
+    width:70%;
+    
+}
+@media screen and (min-width: 992px){
+    .divJunte{
+        padding-top:5%;    
+    }
+    .conteudoJunte{
+        display:flex;
+        flex-direction: row;
+    }
+    .textoPortal{
+        width:50%;
+    }
+    .imagemJunte{
+        width:50%;
+        
+    }
+    
+    
 }
