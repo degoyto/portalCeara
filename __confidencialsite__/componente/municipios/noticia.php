@@ -1,3 +1,24 @@
+<?php 
+    
+    
+    
+    setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+    date_default_timezone_set('America/Sao_Paulo');
+    function dat($data){
+       
+        $datinha = $data;
+        $dataP = explode('-', $data);
+        
+        $dia = explode(' ', $dataP[2]);
+        
+        $dataParaExibir = $dia[0].'/'.$dataP[1].'/'.$dataP[0].' - '.$dia[1];
+        return $dataParaExibir;
+        
+        
+    }
+?>
+
+
 <div class="noticiasCidade container">
     
     <h1>Últimas Notícias</h1>
@@ -16,7 +37,14 @@
     
                         </div>
                         <div class='tituloNoticia'>
-                            <h2>".$exibePrincipais['titulo']."</h2>
+                            <div>
+                                <h3>".$exibe["nome"]."</h3>
+                                <h2>".$exibePrincipais['titulo']."</h2>
+                            </div>
+                            <div>
+                                <p>".$exibePrincipais['autor']." - ".dat($exibePrincipais['createdAt'])."</p>
+                            </div>
+                            
                         </div>
                     </div>
                 </a>";
