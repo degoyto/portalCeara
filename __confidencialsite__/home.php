@@ -16,6 +16,7 @@
         <title>Página Inicial - O Portal do Ceará </title>
         <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/capa.css"/>
+        <link type="text/css" rel="stylesheet" href="css/propaganda/propaganda.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/cidadeDestaque.css"/>
 
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/missao.css"/>
@@ -49,14 +50,22 @@
             <?php include("componente/PaginaInicial/capa.html") ?>
 
         </div>
+        
+            <?php include("componente/propagandas/superBanner.php") ?>
+
+        
         <div id="hoje">
             <?php include("componente/PaginaInicial/noticiaHoje.php") ?>
 
         </div>
+        <?php include("componente/propagandas/superBanner.php") ?>
+
         <div id="perfil">
             <?php include("componente/PaginaInicial/cidadesDestaque.php") ?>
 
         </div>
+        <?php include("componente/propagandas/superBanner.php") ?>
+
         <div id="correspondentes">
             <?php //include("componente/PaginaInicial/missao2.html") ?>
 

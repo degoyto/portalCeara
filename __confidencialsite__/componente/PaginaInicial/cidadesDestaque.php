@@ -25,7 +25,7 @@
 
             <?php 
                 
-                $resultadoPesquisa = $connect->prepare("select nome, id, nomecru from cidades order by nome asc");
+                $resultadoPesquisa = $connect->prepare("select nome, id, nomecru from cidades where id>0 order by nome asc");
                 $resultadoPesquisa->execute();
                 $resultadoPesquisa->bind_result($nomeCidadePesquisa, $idCidadePesquisa, $nomeCruPesquisa);
 
