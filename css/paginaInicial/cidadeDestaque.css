@@ -53,8 +53,6 @@
     width:50%;
     margin-top:2%;
     font-size: 16px;
-    
-    
 }
 .tabelaNomeCidade li a{
     text-decoration: none;
@@ -72,14 +70,10 @@
     }
     .mapSvg{
         width:50%;
-         
-        
-        
     }
     .mapSvg svg{
         margin-top:10%; 
         width:120%;
-        
         margin-left:0%;
     }
     .linksCidades{

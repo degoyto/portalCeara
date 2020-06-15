@@ -1,7 +1,13 @@
 <div class="container-flex divMissao divDestaque" >
-
-    <h1>As Notícias e os 
+    <div class="tituloPerfilCidade">
+        <h1>As Notícias e os 
         <br>perfis das cidades</h1>
+
+        <div class="propagandasPerfilCidade">
+
+        </div>
+    </div>
+    
     <div class="container mapaCidade">
         <div class="mapSvg">
             <?php include("mapaID.html") ?>
