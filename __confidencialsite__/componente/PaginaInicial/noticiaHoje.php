@@ -1,6 +1,6 @@
 <?php 
     
-    
+    error_reporting(E_ALL);
     
     setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
     date_default_timezone_set('America/Sao_Paulo');
@@ -23,9 +23,7 @@
     <h1>O Portal do Ceará hoje</h1>
     <div class="conteudo container">
         
-         <div class="imagemLogo">
-            <img src="https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/outros%2FLOGO%20(1).png?alt=media&token=045729e0-207a-401f-9171-e70ea5852330"/>
-        </div> 
+         
         <div class="textoNoticiaPrincipal">
             <?php 
                 while($exibeTodasCidades = mysqli_fetch_assoc($noticiaPrincipal)){
@@ -35,7 +33,7 @@
                     echo "
                         <div class='noticiaPrincipal'>
                             <div class='noticiaImagemPrincipal'>
-                               <a href='noticia/".$exibeTodasCidades['id']."'> <img src ='".$exibeTodasCidades['foto']."'/></a>
+                               <a href='noticia/".$exibeTodasCidades['id']."'> <div class='fotoDaNoticia' style=background-image:url('".$exibeTodasCidades['foto']."')></div></a>
                             </div>
                             <div class='manchete'>
                                 <div>
@@ -56,6 +54,27 @@
                 }
             ?>
         </div>
-        
+        <div class="imagemLogo">
+            
+           <div>
+           <p>publicidade</p>
+                <?php 
+                    $linkDaPropaganda = "https://www.ignisfit.com/";
+                    $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/propagandas%2Fignis.jpg?alt=media&token=dbe4612f-9bf5-4b9b-ac05-c8b3c2792195";
+                    include("__confidencialsite__/componente/propagandas/bannerHorizontal.php") 
+                ?>
+           </div>
+           <div>
+                <p>publicidade</p>
+                <?php 
+                
+                    $linkDaPropaganda = "http://rodopublis.com.br/";
+                    $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/propagandas%2FrodoPublisBannerHorizontal.jpg?alt=media&token=05d30e04-6160-4da7-b4f1-c4d438342e45";
+                    include("__confidencialsite__/componente/propagandas/bannerPequeno.php") 
+                ?>
+           </div>
+            
+            
+        </div> 
     </div>
 </div>

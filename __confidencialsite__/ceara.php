@@ -20,7 +20,7 @@
         
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/ceara.css"/>
         
-        
+        <link type="text/css" rel="stylesheet" href="css/propaganda/propaganda.css"/>
         <link rel="stylesheet" href="css/geral/gallery.theme.css">
         <link rel="stylesheet" href="css/geral/gallery.min.css">
         <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
@@ -44,13 +44,28 @@
     <body>
         <?php include("componente/geral/navbar.html") ?>
         
+        <div style="padding-top:5%;">
+            <?php 
+                $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+                $imagemDaPropaganda = "https://www.mafans.com/wp-content/uploads/2019/08/1100x160-Cashback.gif";
         
+                include("componente/propagandas/superBanner.php") 
+            ?>
+
+        </div>
         
         <div class="container-flex">
             <?php include("componente/PaginaInicial/ceara.php") ?>
 
         </div>
-        
+        <div >
+            <?php 
+                $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/propagandas%2FportoPecemSuperBanner.jpg?alt=media&token=e98759b3-e912-4195-99c6-e250840a30e8";
+                $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+                include("componente/propagandas/superBanner.php") 
+            ?>
+
+        </div>
         <div>
             <?php include("componente/geral/rodape.php") ?>
         </div>

@@ -1,6 +1,11 @@
 <div class="container-flex">
-    <div class="container superBanner">
-        <p> Anuncie Aqui</p>
-    </div>
+    
+        <a href="<?php echo $linkDaPropaganda ?>">
+            <div class="container superBanner" style="background-image:url('<?php echo $imagemDaPropaganda ?>')">
+            <!-- <img class="imgPropaganda" src="<?php //echo $imagemDaPropaganda ?>"/> -->
+            </div>
+        </a>
+        
+    
 
 </div>

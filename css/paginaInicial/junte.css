@@ -22,7 +22,7 @@
 }
 @media screen and (min-width: 992px){
     .divJunte{
-        padding-top:5%;    
+        padding-top:0%;    
     }
     .conteudoJunte{
         display:flex;

@@ -50,36 +50,47 @@
             <?php include("componente/PaginaInicial/capa.html") ?>
 
         </div>
+        <!-- Propaganda -->
         
-            <?php include("componente/propagandas/superBanner.php") ?>
-
-        
+        <?php 
+            $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/propagandas%2FportoPecemSuperBanner.jpg?alt=media&token=e98759b3-e912-4195-99c6-e250840a30e8";
+            $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+            include("componente/propagandas/superBanner.php") 
+        ?>
+            
         <div id="hoje">
             <?php include("componente/PaginaInicial/noticiaHoje.php") ?>
 
         </div>
-        <?php include("componente/propagandas/superBanner.php") ?>
+        <!-- Propaganda -->
+
+        <?php 
+            $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/propagandas%2FportoPecemSuperBanner.jpg?alt=media&token=e98759b3-e912-4195-99c6-e250840a30e8";
+            $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+            include("componente/propagandas/superBanner.php") 
+        ?>
 
         <div id="perfil">
-            <?php include("componente/PaginaInicial/cidadesDestaque.php") ?>
+            <?php 
+            
+            include("componente/PaginaInicial/cidadesDestaque.php") ?>
 
         </div>
-        <?php include("componente/propagandas/superBanner.php") ?>
+        <!-- Propaganda -->
+        <?php 
+            $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+            $imagemDaPropaganda = "https://www.mafans.com/wp-content/uploads/2019/08/1100x160-Cashback.gif";
+       
+            include("componente/propagandas/superBanner.php") 
+        ?>
 
-        <div id="correspondentes">
-            <?php //include("componente/PaginaInicial/missao2.html") ?>
-
-        </div>
-        
-        <div class="container-flex">
-            <?php //include("componente/PaginaInicial/ceara.php") ?>
-
-        </div>
+       
         <div>
-            <?php //include("componente/PaginaInicial/junte.html") ?>
-        </div>
-        <div>
-            <?php include("componente/geral/rodape.php") ?>
+            <?php 
+            
+            
+            
+            include("componente/geral/rodape.php") ?>
         </div>
         
         
