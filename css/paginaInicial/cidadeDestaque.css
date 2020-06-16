@@ -4,12 +4,26 @@
     background-color: #F1FFFA;
     
 }
-
+.tituloPerfilCidade{
+    display:flex;
+    flex-direction: column;
+}
+.tituloPerfilCidade h1{
+    
+}
+.propagandaPerfilCidade{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    height:90px;
+    
+}
 .mapaCidade{
     display: flex;
     flex-direction: column;
     position:relative;
-    margin-top:2%;
+    margin-top:0%;
     padding-bottom: 5%;
 }
 .mapSvg{
@@ -19,7 +33,7 @@
     overflow: hidden;
 }
 .mapSvg svg{
-    margin-top:10%; 
+    margin-top:0%; 
     width:100%;
     
     margin-left:20%;
@@ -65,8 +79,25 @@
 }
 
 @media screen and (min-width: 992px){
+    .tituloPerfilCidade{
+        
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .tituloPerfilCidade h1{
+        
+        width:700px;
+        display:flex;
+        justify-content:flex-end;
+    }
+    .propagandaPerfilCidade{
+        width: 320px;
+        height:90px;
+        
+    }
     .mapaCidade{
         flex-direction: row;
+        margin-top:2%;
     }
     .mapSvg{
         width:50%;

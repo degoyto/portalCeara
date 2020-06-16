@@ -1,27 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-.carousel-item{
-    
-    width:100vw;
-    background-size: cover;
-    
-    align-items: center;
-    padding-top:2%;
+.infoCidade{
+    width:320px;
 }
-
-.tituloItem{
-    
-    font-family: 'Roboto', sans-serif;
+.divInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.tituloItem h1{
-    font-size:3.5vw;
-    text-align: center;
-    text-transform: uppercase;
-}
-.conteudoItem{
-   margin-top: -2%;
-}
-.conteudoItem h3{
-    margin-top:2%;
-    margin-bottom:2%;
+@media screen and (min-width: 992px){
+    .divInfo{
+        flex-direction: row;
+    }
+    .infoCidade{
+        width:700px;
+        
+    }
 }

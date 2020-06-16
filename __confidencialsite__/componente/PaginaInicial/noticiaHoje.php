@@ -57,7 +57,7 @@
         <div class="imagemLogo">
             
            <div>
-           <p>publicidade</p>
+           
                 <?php 
                     $linkDaPropaganda = "https://www.ignisfit.com/";
                     $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/propagandas%2Fignis.jpg?alt=media&token=dbe4612f-9bf5-4b9b-ac05-c8b3c2792195";
@@ -65,7 +65,7 @@
                 ?>
            </div>
            <div>
-                <p>publicidade</p>
+                
                 <?php 
                 
                     $linkDaPropaganda = "http://rodopublis.com.br/";

@@ -1,10 +1,27 @@
 <div class="container-flex divMissao divDestaque" >
-    <div class="tituloPerfilCidade">
+    <div class="tituloPerfilCidade container">
         <h1>As Notícias e os 
         <br>perfis das cidades</h1>
 
-        <div class="propagandasPerfilCidade">
-
+        <div class="container propagandaPerfilCidade">
+            <?php 
+                
+                $linkDaPropaganda = "http://rodopublis.com.br/";
+                $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/outros%2Fbrazil.png?alt=media&token=7a351c4a-e71f-4cae-9bdf-88a1d206c9ae";
+                include("__confidencialsite__/componente/propagandas/selo.php") 
+            ?>
+            <?php 
+                
+                $linkDaPropaganda = "http://rodopublis.com.br/";
+                $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/outros%2Fbrazil.png?alt=media&token=7a351c4a-e71f-4cae-9bdf-88a1d206c9ae";
+                include("__confidencialsite__/componente/propagandas/selo.php") 
+            ?>
+            <?php 
+                
+                $linkDaPropaganda = "http://rodopublis.com.br/";
+                $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/outros%2Fbrazil.png?alt=media&token=7a351c4a-e71f-4cae-9bdf-88a1d206c9ae";
+                include("__confidencialsite__/componente/propagandas/selo.php") 
+            ?>
         </div>
     </div>
     

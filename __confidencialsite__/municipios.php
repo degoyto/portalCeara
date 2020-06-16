@@ -1,6 +1,6 @@
 <?php 
     include("api/pegaCidade.php");
-    
+    session_start();
 
     include("api/novasNoticias.php");
     include("api/novosEventos.php");
@@ -15,7 +15,7 @@
     <head>
         <?php include("componente/headGeral.php")?>
         <title><?php echo $exibe['nome'] ?> - O Portal do Ceará </title>
-        <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/propaganda/propaganda.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/capa.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/info.css"/>
         <link type="text/css" rel="stylesheet" href="../css/cidades/noticias.css"/>
@@ -46,18 +46,44 @@
         
         <?php include("componente/geral/navbarCidade.php") ?>
         <?php include("componente/municipios/capa.php") ?> 
+        
+        <?php 
+            $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/propagandas%2FportoPecemSuperBanner.jpg?alt=media&token=e98759b3-e912-4195-99c6-e250840a30e8";
+            $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+            include("componente/propagandas/superBanner.php") 
+        ?>
+        
+
         <div class="container-flex" id="cidade">
             <?php include("componente/municipios/info.php") ?>  
 
         </div> 
+        <?php 
+            $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+            $imagemDaPropaganda = "https://www.mafans.com/wp-content/uploads/2019/08/1100x160-Cashback.gif";
+       
+            include("componente/propagandas/superBanner.php") 
+        ?>
+        
         <div class="container-flex" id="noticias">
             <?php include("componente/municipios/noticia.php") ?>  
 
         </div>
+        <?php 
+            $imagemDaPropaganda = "https://firebasestorage.googleapis.com/v0/b/o-portal-do-ceara.appspot.com/o/propagandas%2FportoPecemSuperBanner.jpg?alt=media&token=e98759b3-e912-4195-99c6-e250840a30e8";
+            $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+            include("componente/propagandas/superBanner.php") 
+        ?>
         <div class="container-flex" id="eventos">
             <?php include("componente/municipios/evento.php") ?>  
 
         </div>
+        <?php 
+            $linkDaPropaganda = "https://jornalportodopecem.com.br/";
+            $imagemDaPropaganda = "https://www.mafans.com/wp-content/uploads/2019/08/1100x160-Cashback.gif";
+       
+            include("componente/propagandas/superBanner.php") 
+        ?>
         <?php include("componente/geral/rodape.php") ?>  
         
         
